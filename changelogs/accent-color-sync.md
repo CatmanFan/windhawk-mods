@@ -1,3 +1,7 @@
+## 1.3 ([Jul 23, 2024](https://github.com/ramensoftware/windhawk-mods/blob/cf4bbf495820b3cc32638fe58bedc3b4850abb12/mods/accent-color-sync.wh.cpp))
+
+Bugfix
+
 ## 1.3 ([Jul 23, 2024](https://github.com/ramensoftware/windhawk-mods/blob/96bdc9348709d93bdd61b14cc787762b57f7cfdc/mods/accent-color-sync.wh.cpp))
 
 Remove transparency option
