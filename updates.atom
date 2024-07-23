@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://windhawk.net/</id>
+    <title>Windhawk Mod Updates</title>
+    <updated>2024-07-23T03:03:16.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://windhawk.net/"/>
+    <subtitle>Updates in the official collection of Windhawk mods</subtitle>
+    <icon>https://windhawk.net/favicon.ico</icon>
+    <rights>Ramen Software</rights>
+    <entry>
+        <title type="html"><![CDATA[Accent Color Sync 1.3]]></title>
+        <id>https://windhawk.net/mods/accent-color-sync#92dabb6b957a6b52fc03b5d4f10f17fec0687cbc</id>
+        <link href="https://windhawk.net/mods/accent-color-sync"/>
+        <updated>2024-07-23T03:03:16.000Z</updated>
+        <content type="html"><![CDATA[<p>Update to v1.3</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Accent Color Sync 1.2]]></title>
+        <id>https://windhawk.net/mods/accent-color-sync#120bd157b2a8eb1c99a1ebd8363686cbc40de906</id>
+        <link href="https://windhawk.net/mods/accent-color-sync"/>
+        <updated>2024-07-21T18:54:36.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Add option to sync with DWM's opacity value.</li>
+<li>Add support for x86 Windows.</li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Accent Color Sync 1.1]]></title>
+        <id>https://windhawk.net/mods/accent-color-sync#45b792a63461caa9ac8c5864b83fcf26d724e549</id>
+        <link href="https://windhawk.net/mods/accent-color-sync"/>
+        <updated>2024-07-21T13:05:06.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li><p>Add files via upload</p></li>
+<li><p>Update fix</p></li>
+<li><p>Add files via upload</p></li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windows 11 Taskbar Styler 1.3.6]]></title>
+        <id>https://windhawk.net/mods/windows-11-taskbar-styler#b16412c8ab6de3303ecb179ddcb39a2fe8b28e25</id>
+        <link href="https://windhawk.net/mods/windows-11-taskbar-styler"/>
+        <updated>2024-07-19T22:20:20.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Added the RosePine theme.</li>
+<li>Updated the Squircle theme.</li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Accent color sync 1.0]]></title>
+        <id>https://windhawk.net/mods/accent-color-sync#7bc74ba3694b934452c45f010dda182d70c1e222</id>
+        <link href="https://windhawk.net/mods/accent-color-sync"/>
+        <updated>2024-07-19T12:28:23.000Z</updated>
+        <content type="html"><![CDATA[<p>This mod syncs accent colors used by OpenGlass and StartIsBack++ (if found) with that of the DWM every time a change to the latter is effectuated.
+It does this by hooking to DefWindowProc and listening for any changes to the accent color.</p>
+<p>It also changes the color opacity based on the value that has been set in the Mod Settings.</p>
+<p><strong><em>This will not function properly without OpenGlass installed.</em></strong></p>
+<h3 id="bugssofar">Bugs so far</h3>
+<ul>
+<li>When changing the mod settings, the SIB taskbar and start menu opacity may occassionally not match that of the window titlebar. This can be fixed by changing the theme color from Windows itself.</li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Prevent Edge from lagging your Taskbar process 1.0]]></title>
+        <id>https://windhawk.net/mods/edge-window-tab-manager-block#3100a61198d0238712e2e303fe366a1d7aa3ac08</id>
+        <link href="https://windhawk.net/mods/edge-window-tab-manager-block"/>
+        <updated>2024-07-08T19:47:40.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="preventedgefromlaggingyourtaskbarprocess">Prevent Edge from lagging your Taskbar process</h1>
+<p>This mod is for tab hoarders using Edge browser. </p>
+<p>When you set Alt-Tab to show open windows only (and not individual tabs), it should turn off a problematic feature in the Taskbar process. However, in reality, when you have many tabs open in Edge, the existence of this "Alt-Tab showing browser tabs" feature in Windows still causes issues - the Taskbar will lag and start to consume lot of CPU. This regardless whether the browser tabs are shown in Alt-Tab. There was an experimental Edge flag <code>#edge-window-tab-manager</code> that you could set to "off" in order to disable the problematic feature. However, the flag has been removed. This mod solves the issue in a different way.</p>
+<h2 id="installation">Installation</h2>
+<p>The mod takes effect next time you launch Edge. In order for the mod to take effect immediately, ensure that no Edge processes remain in memory when first installing this mod. Alternatively, restart your computer after installing the mod.</p>
+<h2 id="troubleshooting">Troubleshooting</h2>
+<p>If the above installation procedure does not help, look in Edge's system settings at the following url:\
+<code>edge://settings/system</code>\
+Ensure that the following options are disabled:</p>
+<ul>
+<li>"Startup boost" </li>
+<li>"Continue running background extensions and apps when Microsoft Edge is closed"</li>
+</ul>
+<h2 id="howitworks">How it works</h2>
+<p>It operates by blocking the problematic Edge window Alt-Tab manager functionality, which in turn would affect the Taskbar operation. For time being, only Edge needs this mod, other Chromium-based browsers do not need it.</p>
+<h2 id="whatwouldbethealternativestousingedgealtogether">What would be the alternatives to using Edge altogether?</h2>
+<p>As a problem-free alternative, I recommend Brave browser. It has same vertical tabs functionality as Edge does, so they are quite similar. Brave does not hog the Taskbar process.</p>
+<h2 id="moreinfo">More info</h2>
+<p>See also the following Reddit post:
+<a href="https://www.reddit.com/r/edge/comments/1090h93/having_too_many_1000_microsoft_edge_tabs_open_can/">Having too many (1,000+) Microsoft Edge tabs open can break File Explorer in Windows 10</a>.</p>
+<p>This mod is built as a variation of the code of a loader program developed by gexgd0419:
+<a href="https://github.com/gexgd0419/EdgeWindowTabManagerBlock">EdgeWindowTabManagerBlock: A program that blocks the WindowTabManager feature of Microsoft Edge</a>.</p>
+<p>The benefit of this small mod is that you can conveniently install or uninstall the fix directly via Windhawk UI with fewer steps and less attention to technical details.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[UXTheme hook 1.1]]></title>
+        <id>https://windhawk.net/mods/uxtheme-hook#ed8141fe586e4fccc124b2ced4063f248aa38179</id>
+        <link href="https://windhawk.net/mods/uxtheme-hook"/>
+        <updated>2024-07-08T07:00:47.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>fix calling conventions</li>
+<li>works when directly applying .theme files</li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Maintain colour temperature of f.lux 1.0]]></title>
+        <id>https://windhawk.net/mods/maintain-flux-colour-temperature#3ebfcc35a494cc2c1cc0f65c11728a5badd6e1bb</id>
+        <link href="https://windhawk.net/mods/maintain-flux-colour-temperature"/>
+        <updated>2024-07-07T09:51:06.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="maintaincolourtemperatureofflux">Maintain colour temperature of f.lux</h1>
+<p>Keeps your preferred f.lux colour temperature settings, eliminating automatic changes. You can choose the desired colour temperature from f.lux dropdown menu, and f.lux will not change it later automatically.</p>
+<p>The mod operates by providing f.lux always with a fixed day and time. This fixed day and time can be adjusted by the user in the settings panel of this mod, if necessary, though the default setting should be usually suitable. By default the noon of approximately midsummer day of Northern Hemisphere is chosen as the fixed day and time. The particular day and time are not very important, what matters is that the fixed time is not near the time points where f.lux would usually get triggered to adjust the screen colour on its own.</p>
+<p>There are many posts in f.lux forum asking for this functionality since 2016. Unfortunately there were no solutions provided so far:</p>
+<ul>
+<li><a href="https://forum.justgetflux.com/topic/3012/disable-f-lux-s-automatic-adjustments-based-on-time-location/">Disable f.lux's automatic adjustments based on time/location</a></li>
+<li><a href="https://forum.justgetflux.com/topic/6162/can-automatic-timer-settings-be-disabled">Can automatic timer settings be disabled?</a></li>
+<li><a href="https://forum.justgetflux.com/topic/6228/disabling-all-automatic-functions">Disabling all automatic functions.</a></li>
+<li><a href="https://forum.justgetflux.com/topic/7904/how-to-disable-automatic-change-based-on-time-location">How To Disable Automatic Change Based On Time / Location ?</a></li>
+<li><a href="https://forum.justgetflux.com/topic/8404/how-do-i-stop-flux-to-stop-changing-colors-arbitrary-force-always-on-mode-force-coupling-day-and-night-colors">How do I stop flux to stop changing colors arbitrary / Force always on mode / Force coupling day and night colors?</a></li>
+<li><a href="https://forum.justgetflux.com/topic/8431/sleeping-during-the-day">Sleeping during the day</a></li>
+<li><a href="https://forum.justgetflux.com/topic/8475/how-do-i-make-my-own-permanent-preset">How do I make my own Permanent preset?</a></li>
+<li><a href="https://forum.justgetflux.com/topic/8502/disable-circadian-response-only/">Disable Circadian Response Only</a></li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[UXTheme hook 1.0]]></title>
+        <id>https://windhawk.net/mods/uxtheme-hook#041ef1c28ab0714b460b38b9844911e43456bd00</id>
+        <link href="https://windhawk.net/mods/uxtheme-hook"/>
+        <updated>2024-07-07T08:39:53.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="uxthemehook">UXTheme hook</h1>
+<p>apply custom themes.</p>
+<h3 id="important">⚠ Important ⚠</h3>
+<p>in order for this mod to work properly, you must include <code>winlogon.exe</code> and <code>logonui.exe</code> in windhawk's process inclusion list, in its advanced settings.</p>
+<h3 id="bugs">bugs</h3>
+<p>the colors in control panel might be weird sometimes. works fine if you leave control panel open, then switch themes.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[UIFILE Override 1.0]]></title>
+        <id>https://windhawk.net/mods/uifile-override#5a35e8af0e0dedd36d5dc3b800cba300739a518c</id>
+        <link href="https://windhawk.net/mods/uifile-override"/>
+        <updated>2024-07-07T06:56:30.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="uifileoverride">UIFILE Override</h1>
+<p>Mod that overrides UIFILE resources, similar to OldNewExplorer, loading them
+from current theme shellstyle.dll. Mainly used for explorer.</p>
+<h2 id="howtouse">How to use</h2>
+<p>For overriding a UIFILE resource with this mod, you need to add to your shellstyle.dll a resource named as the file you want to override:<br />
+<strong>shell32.dll UIFILE 21</strong> -&gt; <strong>shellstyle.dll SHELL32_UIFILE 21</strong>.<br />
+This will override the original UIFILE resource from shell32 to the one in shellstyle.</p>
+<h3 id="resourceuifile21loadingfromshellstyledll">Resource UIFILE 21 loading from shellstyle.dll:</h3>
+<p><img src="https://i.imgur.com/4sxHtUd.png" alt="Explorer loading resource shell32.dll UIFILE 21 from shellstye.dll" /></p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fix browsers for Windows Classic theme 1.2]]></title>
+        <id>https://windhawk.net/mods/classic-browser-fix#77c66fbd6c63d5ac8642a77789dbc30880a33e71</id>
+        <link href="https://windhawk.net/mods/classic-browser-fix"/>
+        <updated>2024-07-06T11:31:46.000Z</updated>
+        <content type="html"><![CDATA[<p>plus Brave browser, mitigate reported issues in File Picker</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Clientedge Everywhere 1.1.0]]></title>
+        <id>https://windhawk.net/mods/clientedge-in-apps#97fac6cb48581f099d1f98752b27f8e4188f9f21</id>
+        <link href="https://windhawk.net/mods/clientedge-in-apps"/>
+        <updated>2024-07-06T11:31:13.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Internet Explorer</li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Basic Themer 1.1.0]]></title>
+        <id>https://windhawk.net/mods/basic-themer#158c2c73690dc245e9f6c9b44da0ab5961b1d8f4</id>
+        <link href="https://windhawk.net/mods/basic-themer"/>
+        <updated>2024-07-06T11:25:28.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Fix issue with windows having completely white frames</li>
+<li>Add proper credits to README</li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DWM Unextend Frames 1.3.0]]></title>
+        <id>https://windhawk.net/mods/dwm-unextend-frames#b5539c2babd5da816922a73d3bfcfd9258e68546</id>
+        <link href="https://windhawk.net/mods/dwm-unextend-frames"/>
+        <updated>2024-07-05T18:13:02.000Z</updated>
+        <content type="html"><![CDATA[<p>Add option to only apply to secure desktop</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Notepad Remove Launch New App Banner 1.0.0]]></title>
+        <id>https://windhawk.net/mods/notepad-remove-launch-new-app-banner#f8ec8b0b43bbcadb576ee6b1de5bee1d123976a6</id>
+        <link href="https://windhawk.net/mods/notepad-remove-launch-new-app-banner"/>
+        <updated>2024-07-01T18:43:24.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="notepadremovelaunchnewappbanner">Notepad Remove Launch New App Banner</h1>
+<p>This mod removes the banner in classic notepad (which stills exists in the latest version of Windows 11 in <code>System32</code>, but can only be opened if the App Execution Alias is disabled) that tells you to launch the new app.</p>
+<p><img src="https://i.imgur.com/8eFaQSb.png" alt="Screenshot" /></p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Classic Desktop Icons 1.3.0]]></title>
+        <id>https://windhawk.net/mods/classic-desktop-icons#7d397e9a2b1f8831a2ea3730ab1823fa327e04e5</id>
+        <link href="https://windhawk.net/mods/classic-desktop-icons"/>
+        <updated>2024-06-30T18:17:57.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Fix non-translucent selection rectangle (thanks @kawapure)</li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[StartIsBack++ Tweaker 0.7]]></title>
+        <id>https://windhawk.net/mods/sib-plusplus-tweaker#4cf9e3d6035f8c6621d53fe8bc91d489f71eeef9</id>
+        <link href="https://windhawk.net/mods/sib-plusplus-tweaker"/>
+        <updated>2024-06-30T06:45:28.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Removed "Always use standard user profile picture" setting due to bug reports.</li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[StartIsBack++ Tweaker 0.6]]></title>
+        <id>https://windhawk.net/mods/sib-plusplus-tweaker#51ecb85379958fe13463806cdeef497ff1886bad</id>
+        <link href="https://windhawk.net/mods/sib-plusplus-tweaker"/>
+        <updated>2024-06-29T21:10:41.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Added 2 new options: "Hide UWP Settings results" &amp; "Always use standard user profile picture", done by TeknixStuff.</li>
+<li>Updated Readme</li>
+<li>Deleted Control Panel workaround for Windows 7 links</li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[StartIsBack++ Tweaker 0.5]]></title>
+        <id>https://windhawk.net/mods/sib-plusplus-tweaker#fff05a9be6853eb3b7a8c6cf85d79c43142f1241</id>
+        <link href="https://windhawk.net/mods/sib-plusplus-tweaker"/>
+        <updated>2024-06-29T01:11:32.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>New option: Fix User Folders On Corrupted Namespace</li>
+<li>Removed re-scale of "All Programs" menu as it caused some artifacts</li>
+<li>Fixed "All Programs" menu resize handling</li>
+<li>Updated Readme</li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[StartIsBack++ Tweaker 0.4]]></title>
+        <id>https://windhawk.net/mods/sib-plusplus-tweaker#d63ed3bf36b5dcd9083f0710e63196982fe4ec9f</id>
+        <link href="https://windhawk.net/mods/sib-plusplus-tweaker"/>
+        <updated>2024-06-28T21:57:11.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="startisbacktweaker2920">StartIsBack++ Tweaker (2.9.20)</h1>
+<p>Modifies StartIsBack++'s internal functions for more customizable options.
+Might not work if the StartIsBack++ DLL installed has been patched previously.
+<strong>Works only on StartIsBack++ 2.9.20. Functionality on older/newer versions is not guaranteed.</strong></p>
+<h2 id="features">Features</h2>
+<p>As of now, the mod can do interesting things as restoring Windows 7's links, disable Hottracking or disable Start Menu animations.
+Read the options or the <a href="https://winclassic.net/thread/2377/startisback-tweaker-2-9-20">WinClassic post</a> for more info.</p>
+<h2 id="specialthanks">Special Thanks</h2>
+<ul>
+<li>Wiktorwiktor12: FindPattern function &amp; Custom Folder help.</li>
+<li>Aubymori: Additional help.</li>
+</ul>]]></content>
+    </entry>
+</feed>
