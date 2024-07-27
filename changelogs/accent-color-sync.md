@@ -1,3 +1,7 @@
+## 1.31 ([Jul 27, 2024](https://github.com/ramensoftware/windhawk-mods/blob/bced7ea8ac93c0d05793f47258136e80da4e065d/mods/accent-color-sync.wh.cpp))
+
+Update Accent Color Sync
+
 ## 1.3 ([Jul 23, 2024](https://github.com/ramensoftware/windhawk-mods/blob/7c4df7d217e3e09907079ed0d5a13df0cf64d5f0/mods/accent-color-sync.wh.cpp))
 
 * Fixed bugs in which OpenGlass opacity did not update when changing theme or clicking "Cancel" on the 'Color & Appearance' page.
