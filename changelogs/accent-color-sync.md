@@ -1,3 +1,7 @@
+## 1.32 ([Sep 5, 2024](https://github.com/ramensoftware/windhawk-mods/blob/0954a6bfe3194e78c92c4dc170ba33fdbc597a20/mods/accent-color-sync.wh.cpp))
+
+Fixed
+
 ## 1.32 ([Sep 5, 2024](https://github.com/ramensoftware/windhawk-mods/blob/b4ec798453087e98bbd2b95f03ea40e27f41fb04/mods/accent-color-sync.wh.cpp))
 
 Forgot to change the id
