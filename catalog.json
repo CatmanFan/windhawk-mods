@@ -9,7 +9,7 @@
                 "published": 1721392103000,
                 "rating": 10,
                 "ratingUsers": 3,
-                "updated": 1725567149000,
+                "updated": 1725567302000,
                 "users": 89
             },
             "metadata": {
@@ -18,7 +18,7 @@
                     "x86-64"
                 ],
                 "author": "CatmanFan / Mr._Lechkar",
-                "compilerOptions": "-lcomdlg32",
+                "compilerOptions": "-lcomdlg32 -lversion",
                 "description": "Synchronises OpenGlass and Control Panel color settings",
                 "github": "https://github.com/CatmanFan",
                 "include": [

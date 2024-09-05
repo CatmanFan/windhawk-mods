@@ -1,3 +1,7 @@
+## 1.32 ([Sep 5, 2024](https://github.com/ramensoftware/windhawk-mods/blob/8e36c64aa4169da3d94adb7631cde2f9ce4daa32/mods/accent-color-sync.wh.cpp))
+
+Why does this happen
+
 ## 1.32 ([Sep 5, 2024](https://github.com/ramensoftware/windhawk-mods/blob/0954a6bfe3194e78c92c4dc170ba33fdbc597a20/mods/accent-color-sync.wh.cpp))
 
 Fixed
