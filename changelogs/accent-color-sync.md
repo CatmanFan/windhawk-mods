@@ -1,3 +1,11 @@
+## 1.32 ([Sep 5, 2024](https://github.com/ramensoftware/windhawk-mods/blob/b4ec798453087e98bbd2b95f03ea40e27f41fb04/mods/accent-color-sync.wh.cpp))
+
+Forgot to change the id
+
+## 1.32 ([Sep 5, 2024](https://github.com/ramensoftware/windhawk-mods/blob/0d6388e5b53cd8283f9623c5ea7b482a91dd6f16/mods/accent-color-sync.wh.cpp))
+
+Update
+
 ## 1.31 ([Jul 27, 2024](https://github.com/ramensoftware/windhawk-mods/blob/bced7ea8ac93c0d05793f47258136e80da4e065d/mods/accent-color-sync.wh.cpp))
 
 Update Accent Color Sync

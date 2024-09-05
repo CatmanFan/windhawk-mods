@@ -9,7 +9,7 @@
                 "published": 1721392103000,
                 "rating": 10,
                 "ratingUsers": 3,
-                "updated": 1722039813000,
+                "updated": 1725562531000,
                 "users": 89
             },
             "metadata": {
@@ -25,7 +25,7 @@
                     "explorer.exe"
                 ],
                 "name": "Accent Color Sync",
-                "version": "1.31"
+                "version": "1.32"
             }
         },
         "acrylic-effect-radius-changer": {
@@ -57,19 +57,19 @@
                 "published": 1713177639000,
                 "rating": 9,
                 "ratingUsers": 23,
-                "updated": 1718907556000,
+                "updated": 1724604763000,
                 "users": 971
             },
             "metadata": {
                 "author": "aubymori",
-                "compilerOptions": "-lgdi32 -lcomctl32 -lole32 -loleaut32 -luxtheme -ldwmapi",
+                "compilerOptions": "-lgdi32 -lcomctl32 -lole32 -loleaut32 -luxtheme -ldwmapi -DWINVER=0x0A00",
                 "description": "Various tweaks for Windows Explorer to make it more like older versions.",
                 "github": "https://github.com/aubymori",
                 "include": [
                     "*"
                 ],
                 "name": "Aerexplorer",
-                "version": "1.6.2"
+                "version": "1.6.4"
             }
         },
         "aero-flyout-fix": {
@@ -78,7 +78,7 @@
                 "published": 1702982459000,
                 "rating": 8,
                 "ratingUsers": 8,
-                "updated": 1702982459000,
+                "updated": 1724502505000,
                 "users": 750
             },
             "metadata": {
@@ -86,7 +86,7 @@
                     "x86-64"
                 ],
                 "author": "aubymori",
-                "compilerOptions": "-lgdi32 -lshell32",
+                "compilerOptions": "-lgdi32 -lshell32 -luxtheme -ldwmapi",
                 "description": "Applies thick borders to legacy system flyouts and make them float",
                 "github": "https://github.com/aubymori",
                 "include": [
@@ -94,7 +94,7 @@
                     "SndVol.exe"
                 ],
                 "name": "Aero Flyout Fix",
-                "version": "1.0.0"
+                "version": "1.1.0"
             }
         },
         "aero-tray": {
@@ -294,7 +294,7 @@
                 "published": 1697883443000,
                 "rating": 10,
                 "ratingUsers": 1,
-                "updated": 1704232475000,
+                "updated": 1723931998000,
                 "users": 176
             },
             "metadata": {
@@ -307,7 +307,7 @@
                     "conhost.exe"
                 ],
                 "name": "Classic Conhost",
-                "version": "1.0.2"
+                "version": "1.0.3"
             }
         },
         "classic-desktop-icons": {
@@ -364,7 +364,7 @@
                 "published": 1709574778000,
                 "rating": 10,
                 "ratingUsers": 2,
-                "updated": 1709713642000,
+                "updated": 1722767007000,
                 "users": 220
             },
             "metadata": {
@@ -375,7 +375,7 @@
                     "*"
                 ],
                 "name": "Classic File Picker dialog",
-                "version": "1.1"
+                "version": "1.1.1"
             }
         },
         "classic-list-group-fix": {
@@ -453,13 +453,35 @@
                 "version": "1.0.0"
             }
         },
+        "classic-taskbar-background-fix": {
+            "details": {
+                "defaultSorting": 252,
+                "published": 1723893068000,
+                "rating": 0,
+                "ratingUsers": 0,
+                "updated": 1725517602000,
+                "users": 28
+            },
+            "metadata": {
+                "author": "Roland Pihlakas",
+                "compilerOptions": "-luser32 -lgdi32 -luxtheme",
+                "description": "Fixes Taskbar background in classic theme by replacing black background with a classic button face colour",
+                "github": "https://github.com/levitation",
+                "homepage": "https://www.simplify.ee/",
+                "include": [
+                    "explorer.exe"
+                ],
+                "name": "Classic Taskbar background fix",
+                "version": "1.0.3"
+            }
+        },
         "classic-taskbar-buttons-lite": {
             "details": {
                 "defaultSorting": 1100,
                 "published": 1708239757000,
                 "rating": 10,
                 "ratingUsers": 1,
-                "updated": 1708239757000,
+                "updated": 1723930010000,
                 "users": 110
             },
             "metadata": {
@@ -471,7 +493,7 @@
                     "explorer.exe"
                 ],
                 "name": "Classic Taskbar 3D buttons Lite",
-                "version": "1.2"
+                "version": "1.3"
             }
         },
         "classic-taskbar-buttons-lite-vs-without-spacing": {
@@ -555,6 +577,28 @@
                 ],
                 "name": "Enable Classic Theme by handle method",
                 "version": "1.0.3"
+            }
+        },
+        "classic-theme-enable-with-extended-compatibility": {
+            "details": {
+                "defaultSorting": 243,
+                "published": 1724346656000,
+                "rating": 0,
+                "ratingUsers": 0,
+                "updated": 1725358029000,
+                "users": 27
+            },
+            "metadata": {
+                "author": "Roland Pihlakas",
+                "compilerOptions": "-lntdll -lkernel32 -lwtsapi32",
+                "description": "Enables classic theme. Supports Remote Desktop sessions and is compatible with early / system start of Windhawk.",
+                "github": "https://github.com/levitation",
+                "homepage": "https://www.simplify.ee/",
+                "include": [
+                    "winlogon.exe"
+                ],
+                "name": "Classic Theme Enable with extended compatibility",
+                "version": "1.2.1"
             }
         },
         "classic-theme-explorer-lite": {
@@ -941,7 +985,7 @@
                 "published": 1696691422000,
                 "rating": 10,
                 "ratingUsers": 42,
-                "updated": 1717179907000,
+                "updated": 1722276351000,
                 "users": 2049
             },
             "metadata": {
@@ -949,7 +993,7 @@
                     "x86-64"
                 ],
                 "author": "m417z",
-                "compilerOptions": "-lole32 -loleaut32",
+                "compilerOptions": "-lole32 -loleaut32 -lversion",
                 "description": "Restores the classic Explorer navigation bar to the version before the Windows 11 \"Moments 4\" update",
                 "github": "https://github.com/m417z",
                 "homepage": "https://m417z.com/",
@@ -958,7 +1002,7 @@
                 ],
                 "name": "Classic Explorer navigation bar",
                 "twitter": "https://twitter.com/m417z",
-                "version": "1.0.3"
+                "version": "1.0.4"
             }
         },
         "explorer-name-windows": {
@@ -984,6 +1028,30 @@
                 "version": "1.0"
             }
         },
+        "explorerframe-fixes-for-win11-22h2plus": {
+            "details": {
+                "defaultSorting": 1800,
+                "published": 1723726056000,
+                "rating": 10,
+                "ratingUsers": 5,
+                "updated": 1723726056000,
+                "users": 180
+            },
+            "metadata": {
+                "architecture": [
+                    "x86-64"
+                ],
+                "author": "Waldemar",
+                "compilerOptions": "-lcomctl32 -lgdi32",
+                "description": "Fixes three problems with file explorer",
+                "github": "https://github.com/CyprinusCarpio",
+                "include": [
+                    "explorer.exe"
+                ],
+                "name": "Explorerframe fixes for Win11 22H2+",
+                "version": "1.0"
+            }
+        },
         "extension-change-no-warning": {
             "details": {
                 "defaultSorting": 10520,
@@ -1004,6 +1072,26 @@
                 "name": "Turn off change file extension warning",
                 "twitter": "https://twitter.com/m417z",
                 "version": "1.0"
+            }
+        },
+        "fake-explorer-path": {
+            "details": {
+                "defaultSorting": 162,
+                "published": 1725191708000,
+                "rating": 0,
+                "ratingUsers": 0,
+                "updated": 1725195955000,
+                "users": 18
+            },
+            "metadata": {
+                "author": "Anixx",
+                "description": "Allows to run explorer.exe in taskbar mode from any location",
+                "github": "https://github.com/Anixx",
+                "include": [
+                    "explorer.exe"
+                ],
+                "name": "Fake Explorer path",
+                "version": "1.0.1"
             }
         },
         "fake-high-contrast": {
@@ -1070,6 +1158,30 @@
                     "*"
                 ],
                 "name": "Fix Darkmode ListViews",
+                "version": "1.0"
+            }
+        },
+        "fix-qt-scrollbar-grippers": {
+            "details": {
+                "defaultSorting": 260,
+                "published": 1722712367000,
+                "rating": 10,
+                "ratingUsers": 1,
+                "updated": 1722712367000,
+                "users": 26
+            },
+            "metadata": {
+                "author": "kawapure",
+                "compilerOptions": "-lcomdlg32 -luxtheme",
+                "description": "Fixes scrollbar grippers in Qt 6.1+",
+                "github": "https://github.com/kawapure",
+                "homepage": "https://kawapure.github.io",
+                "include": [
+                    "ida64.exe",
+                    "ida.exe"
+                ],
+                "name": "Fix Qt scrollbar grippers",
+                "twitter": "https://twitter.com/kawaipure",
                 "version": "1.0"
             }
         },
@@ -1166,7 +1278,7 @@
                 "published": 1713005692000,
                 "rating": 9,
                 "ratingUsers": 7,
-                "updated": 1717840073000,
+                "updated": 1724437282000,
                 "users": 293
             },
             "metadata": {
@@ -1180,7 +1292,7 @@
                 ],
                 "name": "Resource Redirect",
                 "twitter": "https://twitter.com/m417z",
-                "version": "1.1.4"
+                "version": "1.1.5"
             }
         },
         "icon16bitfix": {
@@ -1241,6 +1353,26 @@
                 "version": "1"
             }
         },
+        "legacy-alt-tab": {
+            "details": {
+                "defaultSorting": 470,
+                "published": 1723297622000,
+                "rating": 10,
+                "ratingUsers": 1,
+                "updated": 1723297622000,
+                "users": 47
+            },
+            "metadata": {
+                "author": "Anixx",
+                "description": "Enables legacy Alt+Tab dialog from Windows XP and Windows 2000",
+                "github": "https://github.com/Anixx",
+                "include": [
+                    "explorer.exe"
+                ],
+                "name": "Legacy Alt+Tab dialog",
+                "version": "1.0"
+            }
+        },
         "legacy-file-copy": {
             "details": {
                 "defaultSorting": 9600,
@@ -1283,6 +1415,26 @@
                 ],
                 "name": "Legacy Search Bar",
                 "version": "1.0.0"
+            }
+        },
+        "lines-in-mmc": {
+            "details": {
+                "defaultSorting": 150,
+                "published": 1725108288000,
+                "rating": 10,
+                "ratingUsers": 4,
+                "updated": 1725108584000,
+                "users": 15
+            },
+            "metadata": {
+                "author": "anixx",
+                "description": "Adds dotted lines to the TreeView in Microsoft Management Console and Device Manager",
+                "github": "https://github.com/Anixx",
+                "include": [
+                    "mmc.exe"
+                ],
+                "name": "Lines in MMC and Device Manager",
+                "version": "1.0.1"
             }
         },
         "lm-close-windbg-file-changed": {
@@ -1853,7 +2005,7 @@
                 "published": 1700466353000,
                 "rating": 10,
                 "ratingUsers": 4,
-                "updated": 1700466353000,
+                "updated": 1722203317000,
                 "users": 260
             },
             "metadata": {
@@ -1866,7 +2018,7 @@
                     "wordpad.exe"
                 ],
                 "name": "UIRibbon Caption Icon Fix",
-                "version": "1.0"
+                "version": "1.0.1"
             }
         },
         "shrink-address-bar-height": {
@@ -2104,6 +2256,30 @@
                 "version": "1.3.3"
             }
         },
+        "taskbar-disappearing-icon-fix-win11": {
+            "details": {
+                "defaultSorting": 1770,
+                "published": 1722243342000,
+                "rating": 10,
+                "ratingUsers": 7,
+                "updated": 1722243342000,
+                "users": 177
+            },
+            "metadata": {
+                "architecture": [
+                    "x86-64"
+                ],
+                "author": "yezhiyi9670",
+                "compilerOptions": "-DWINVER=0x0605 -loleaut32 -lole32 -lruntimeobject -lwininet",
+                "description": "Tries to fix disappearing icon in Windows 11 taskbar while switching virtual desktops.",
+                "github": "https://github.com/yezhiyi9670",
+                "include": [
+                    "explorer.exe"
+                ],
+                "name": "Taskbar Disappearing Icon Fix for Windows 11",
+                "version": "1.0"
+            }
+        },
         "taskbar-empty-space-clicks": {
             "details": {
                 "defaultSorting": 13270,
@@ -2131,7 +2307,7 @@
                 "published": 1646604429000,
                 "rating": 10,
                 "ratingUsers": 152,
-                "updated": 1718200067000,
+                "updated": 1723223911000,
                 "users": 6775
             },
             "featured": true,
@@ -2149,7 +2325,7 @@
                 ],
                 "name": "Disable grouping on the taskbar",
                 "twitter": "https://twitter.com/m417z",
-                "version": "1.3.4"
+                "version": "1.3.5"
             }
         },
         "taskbar-icon-size": {
@@ -2158,7 +2334,7 @@
                 "published": 1657984524000,
                 "rating": 10,
                 "ratingUsers": 667,
-                "updated": 1717166842000,
+                "updated": 1724703161000,
                 "users": 29344
             },
             "featured": true,
@@ -2167,7 +2343,7 @@
                     "x86-64"
                 ],
                 "author": "m417z",
-                "compilerOptions": "-DWINVER=0x0605 -lcomctl32 -lole32 -loleaut32 -lshcore -lwininet",
+                "compilerOptions": "-DWINVER=0x0605 -lcomctl32 -lole32 -loleaut32 -lruntimeobject -lshcore -lwininet",
                 "description": "Control the taskbar height and icon size, improve icon quality (Windows 11 only)",
                 "github": "https://github.com/m417z",
                 "homepage": "https://m417z.com/",
@@ -2176,7 +2352,7 @@
                 ],
                 "name": "Taskbar height and icon size",
                 "twitter": "https://twitter.com/m417z",
-                "version": "1.2.8"
+                "version": "1.2.12"
             }
         },
         "taskbar-labels": {
@@ -2232,6 +2408,31 @@
                 "version": "1.0.2"
             }
         },
+        "taskbar-notification-icons-show-all": {
+            "details": {
+                "defaultSorting": 1870,
+                "published": 1724956331000,
+                "rating": 10,
+                "ratingUsers": 4,
+                "updated": 1724956331000,
+                "users": 187
+            },
+            "metadata": {
+                "architecture": [
+                    "x86-64"
+                ],
+                "author": "m417z",
+                "description": "Restore the missing Windows option to always show all notification (tray) icons (Windows 11 only)",
+                "github": "https://github.com/m417z",
+                "homepage": "https://m417z.com/",
+                "include": [
+                    "explorer.exe"
+                ],
+                "name": "Always show all taskbar tray icons",
+                "twitter": "https://twitter.com/m417z",
+                "version": "1.0"
+            }
+        },
         "taskbar-scroll-actions": {
             "details": {
                 "defaultSorting": 2120,
@@ -2255,13 +2456,39 @@
                 "version": "1.0.1"
             }
         },
+        "taskbar-start-button-position": {
+            "details": {
+                "defaultSorting": 580,
+                "published": 1724520144000,
+                "rating": 10,
+                "ratingUsers": 1,
+                "updated": 1724520144000,
+                "users": 58
+            },
+            "metadata": {
+                "architecture": [
+                    "x86-64"
+                ],
+                "author": "m417z",
+                "compilerOptions": "-lole32 -loleaut32 -lruntimeobject",
+                "description": "Forces the start button to be on the left of the taskbar, even when taskbar icons are centered (Windows 11 only)",
+                "github": "https://github.com/m417z",
+                "homepage": "https://m417z.com/",
+                "include": [
+                    "explorer.exe"
+                ],
+                "name": "Start button always on the left",
+                "twitter": "https://twitter.com/m417z",
+                "version": "1.0"
+            }
+        },
         "taskbar-thumbnail-reorder": {
             "details": {
                 "defaultSorting": 43990,
                 "published": 1657401939000,
                 "rating": 10,
                 "ratingUsers": 111,
-                "updated": 1714851173000,
+                "updated": 1723320938000,
                 "users": 4399
             },
             "featured": true,
@@ -2279,7 +2506,7 @@
                 ],
                 "name": "Taskbar Thumbnail Reorder",
                 "twitter": "https://twitter.com/m417z",
-                "version": "1.0.7"
+                "version": "1.0.8"
             }
         },
         "taskbar-vertical": {
@@ -2288,7 +2515,7 @@
                 "published": 1718190574000,
                 "rating": 10,
                 "ratingUsers": 5,
-                "updated": 1718190574000,
+                "updated": 1725128663000,
                 "users": 518
             },
             "metadata": {
@@ -2296,16 +2523,19 @@
                     "x86-64"
                 ],
                 "author": "m417z",
-                "compilerOptions": "-DWINVER=0x0605 -lgdi32 -lole32 -loleaut32 -lshcore -lwininet",
+                "compilerOptions": "-DWINVER=0x0605 -lgdi32 -lole32 -loleaut32 -lruntimeobject -lshcore",
                 "description": "Finally, the missing vertical taskbar option for Windows 11!",
                 "github": "https://github.com/m417z",
                 "homepage": "https://m417z.com/",
                 "include": [
-                    "explorer.exe"
+                    "explorer.exe",
+                    "StartMenuExperienceHost.exe",
+                    "SearchHost.exe",
+                    "ShellExperienceHost.exe"
                 ],
                 "name": "Vertical Taskbar for Windows 11",
                 "twitter": "https://twitter.com/m417z",
-                "version": "1.0"
+                "version": "1.1"
             }
         },
         "taskbar-volume-control": {
@@ -2338,7 +2568,7 @@
                 "published": 1682527457000,
                 "rating": 10,
                 "ratingUsers": 16,
-                "updated": 1714855433000,
+                "updated": 1722365902000,
                 "users": 596
             },
             "metadata": {
@@ -2346,7 +2576,7 @@
                     "x86-64"
                 ],
                 "author": "m417z",
-                "compilerOptions": "-lcomctl32 -loleaut32 -lole32 -lwininet",
+                "compilerOptions": "-lcomctl32 -loleaut32 -lole32 -lruntimeobject -lwininet",
                 "description": "Use the mouse wheel while hovering over the taskbar to cycle between taskbar buttons (Windows 11 only)",
                 "github": "https://github.com/m417z",
                 "homepage": "https://m417z.com/",
@@ -2355,7 +2585,7 @@
                 ],
                 "name": "Cycle taskbar buttons with mouse wheel",
                 "twitter": "https://twitter.com/m417z",
-                "version": "1.1.3"
+                "version": "1.1.4"
             }
         },
         "text-replace": {
@@ -2424,13 +2654,36 @@
                 "version": "1.0"
             }
         },
+        "transparent-screensaver-fix": {
+            "details": {
+                "defaultSorting": 970,
+                "published": 1723929138000,
+                "rating": 10,
+                "ratingUsers": 9,
+                "updated": 1723929138000,
+                "users": 97
+            },
+            "metadata": {
+                "architecture": [
+                    "x86-64"
+                ],
+                "author": "aubymori",
+                "description": "Allows transparent screensavers to see your desktop again",
+                "github": "https://github.com/aubymori",
+                "include": [
+                    "winlogon.exe"
+                ],
+                "name": "Transparent Screensaver Fix",
+                "version": "1.0.0"
+            }
+        },
         "uifile-override": {
             "details": {
                 "defaultSorting": 300,
                 "published": 1720335390000,
                 "rating": 10,
                 "ratingUsers": 1,
-                "updated": 1720335390000,
+                "updated": 1723672189000,
                 "users": 30
             },
             "metadata": {
@@ -2442,7 +2695,7 @@
                     "*"
                 ],
                 "name": "UIFILE Override",
-                "version": "1.0"
+                "version": "1.0.1"
             }
         },
         "unlock-taskmgr-server": {
@@ -2521,7 +2774,7 @@
                 "published": 1677867923000,
                 "rating": 10,
                 "ratingUsers": 21,
-                "updated": 1714854884000,
+                "updated": 1723672222000,
                 "users": 715
             },
             "metadata": {
@@ -2538,7 +2791,7 @@
                 ],
                 "name": "Virtual Desktop Preserve Taskbar Order",
                 "twitter": "https://twitter.com/m417z",
-                "version": "1.0.2"
+                "version": "1.0.3"
             }
         },
         "visual-studio-anti-rich-header": {
@@ -2636,6 +2889,50 @@
                 "version": "1.1.0"
             }
         },
+        "win10-taskbar-on-win11": {
+            "details": {
+                "defaultSorting": 378,
+                "published": 1723291741000,
+                "rating": 0,
+                "ratingUsers": 0,
+                "updated": 1723471859000,
+                "users": 42
+            },
+            "metadata": {
+                "author": "Anixx",
+                "description": "Enables Windows 10 taskbar on Windows 11 versions 21H2 to 23H2",
+                "github": "https://github.com/Anixx",
+                "include": [
+                    "explorer.exe"
+                ],
+                "name": "Windows 10 taskbar on Windows 11",
+                "version": "1.0.1"
+            }
+        },
+        "win10-taskbar-on-win11-24h2": {
+            "details": {
+                "defaultSorting": 27,
+                "published": 1725446830000,
+                "rating": 0,
+                "ratingUsers": 0,
+                "updated": 1725446830000,
+                "users": 3
+            },
+            "metadata": {
+                "architecture": [
+                    "x86-64"
+                ],
+                "author": "Anixx",
+                "compilerOptions": "-lurlmon",
+                "description": "Enables Windows 10 taskbar on Windows 11 version 24H2, Windows Server 2025 and Windows 11 IoT Enterprise LTSC 2024",
+                "github": "https://github.com/Anixx",
+                "include": [
+                    "userinit.exe"
+                ],
+                "name": "Enables Win10 taskbar on Win11 24H2",
+                "version": "0.1"
+            }
+        },
         "win32-tray-clock-experience": {
             "details": {
                 "defaultSorting": 5630,
@@ -2666,7 +2963,7 @@
                 "published": 1690590362000,
                 "rating": 10,
                 "ratingUsers": 7,
-                "updated": 1719198375000,
+                "updated": 1724657922000,
                 "users": 373
             },
             "metadata": {
@@ -2674,14 +2971,14 @@
                     "x86-64"
                 ],
                 "author": "aubymori",
-                "compilerOptions": "-lole32 -luuid -ldwmapi -luxtheme -ldbghelp",
+                "compilerOptions": "-ldwmapi -lcomctl32 -lgdi32",
                 "description": "Loads Windows 7 Alt+Tab on Windows 10.",
                 "github": "https://github.com/aubymori",
                 "include": [
                     "explorer.exe"
                 ],
                 "name": "Windows 7 Alt+Tab Loader",
-                "version": "1.0.2"
+                "version": "2.0.0"
             }
         },
         "win7-command-bar": {
@@ -2755,7 +3052,7 @@
                 "published": 1715436273000,
                 "rating": 10,
                 "ratingUsers": 43,
-                "updated": 1719489546000,
+                "updated": 1722155130000,
                 "users": 4442
             },
             "metadata": {
@@ -2764,7 +3061,7 @@
                 ],
                 "author": "m417z",
                 "compilerOptions": "-lcomctl32 -lole32 -loleaut32 -lruntimeobject -Wl,--export-all-symbols",
-                "description": "An advanced mod to override style attributes of the Notification Center",
+                "description": "Customize the Notification Center with themes contributed by others or create your own",
                 "github": "https://github.com/m417z",
                 "homepage": "https://m417z.com/",
                 "include": [
@@ -2772,7 +3069,7 @@
                 ],
                 "name": "Windows 11 Notification Center Styler",
                 "twitter": "https://twitter.com/m417z",
-                "version": "1.1"
+                "version": "1.1.1"
             }
         },
         "windows-11-start-menu-styler": {
@@ -2781,7 +3078,7 @@
                 "published": 1703013948000,
                 "rating": 10,
                 "ratingUsers": 298,
-                "updated": 1716841286000,
+                "updated": 1722190006000,
                 "users": 21744
             },
             "featured": true,
@@ -2790,8 +3087,8 @@
                     "x86-64"
                 ],
                 "author": "m417z",
-                "compilerOptions": "-lcomctl32 -lole32 -loleaut32 -lruntimeobject -Wl,--export-all-symbols",
-                "description": "An advanced mod to override style attributes of the start menu control elements",
+                "compilerOptions": "-lcomctl32 -lole32 -loleaut32 -lruntimeobject -lversion -Wl,--export-all-symbols",
+                "description": "Customize the start menu with themes contributed by others or create your own",
                 "github": "https://github.com/m417z",
                 "homepage": "https://m417z.com/",
                 "include": [
@@ -2799,7 +3096,7 @@
                 ],
                 "name": "Windows 11 Start Menu Styler",
                 "twitter": "https://twitter.com/m417z",
-                "version": "1.1.3"
+                "version": "1.1.5"
             }
         },
         "windows-11-taskbar-styler": {
@@ -2808,7 +3105,7 @@
                 "published": 1684509250000,
                 "rating": 10,
                 "ratingUsers": 251,
-                "updated": 1721427620000,
+                "updated": 1722155241000,
                 "users": 16685
             },
             "featured": true,
@@ -2818,7 +3115,7 @@
                 ],
                 "author": "m417z",
                 "compilerOptions": "-lcomctl32 -lole32 -loleaut32 -lruntimeobject -Wl,--export-all-symbols",
-                "description": "An advanced mod to override style attributes of the taskbar control elements",
+                "description": "Customize the taskbar with themes contributed by others or create your own",
                 "github": "https://github.com/m417z",
                 "homepage": "https://m417z.com/",
                 "include": [
@@ -2826,7 +3123,7 @@
                 ],
                 "name": "Windows 11 Taskbar Styler",
                 "twitter": "https://twitter.com/m417z",
-                "version": "1.3.6"
+                "version": "1.3.7"
             }
         },
         "windows-7-clock-spacing": {
