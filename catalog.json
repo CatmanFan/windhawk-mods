@@ -959,6 +959,31 @@
                 "version": "1.1.0"
             }
         },
+        "ex7forw8-config": {
+            "details": {
+                "defaultSorting": 0,
+                "published": 1725715944000,
+                "rating": 0,
+                "ratingUsers": 0,
+                "updated": 1725715944000,
+                "users": 0
+            },
+            "metadata": {
+                "architecture": [
+                    "x86",
+                    "x86-64"
+                ],
+                "author": "CatmanFan / Mr._Lechkar",
+                "compilerOptions": "-lcomdlg32",
+                "description": "An easier way to configure explorer7 without registry",
+                "github": "https://github.com/CatmanFan",
+                "include": [
+                    "explorer.exe"
+                ],
+                "name": "Explorer7 configurator",
+                "version": "1.0"
+            }
+        },
         "explorer-32px-icons": {
             "details": {
                 "defaultSorting": 2570,
@@ -1846,6 +1871,33 @@
                 "version": "1.0.0"
             }
         },
+        "notifications-placement": {
+            "details": {
+                "defaultSorting": 9,
+                "published": 1725643905000,
+                "rating": 0,
+                "ratingUsers": 0,
+                "updated": 1725643905000,
+                "users": 1
+            },
+            "metadata": {
+                "architecture": [
+                    "x86-64"
+                ],
+                "author": "m417z",
+                "compilerOptions": "-DWINVER=0x0A00 -lshcore",
+                "description": "Move notifications to another monitor or another corner of the screen",
+                "github": "https://github.com/m417z",
+                "homepage": "https://m417z.com/",
+                "include": [
+                    "explorer.exe",
+                    "ShellExperienceHost.exe"
+                ],
+                "name": "Customize Windows 11 notifications placement",
+                "twitter": "https://twitter.com/m417z",
+                "version": "1.0"
+            }
+        },
         "old-this-pc-commands": {
             "details": {
                 "defaultSorting": 5360,
@@ -2683,7 +2735,7 @@
                 "published": 1720335390000,
                 "rating": 10,
                 "ratingUsers": 1,
-                "updated": 1723672189000,
+                "updated": 1725695515000,
                 "users": 37
             },
             "metadata": {
@@ -2695,7 +2747,7 @@
                     "*"
                 ],
                 "name": "UIFILE Override",
-                "version": "1.0.1"
+                "version": "1.0.2"
             }
         },
         "unlock-taskmgr-server": {
@@ -3052,7 +3104,7 @@
                 "published": 1715436273000,
                 "rating": 10,
                 "ratingUsers": 43,
-                "updated": 1722155130000,
+                "updated": 1725709268000,
                 "users": 4748
             },
             "metadata": {
@@ -3069,7 +3121,7 @@
                 ],
                 "name": "Windows 11 Notification Center Styler",
                 "twitter": "https://twitter.com/m417z",
-                "version": "1.1.1"
+                "version": "1.1.2"
             }
         },
         "windows-11-start-menu-styler": {
