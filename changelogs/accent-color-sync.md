@@ -1,26 +1,17 @@
-## 1.4 ([Sep 7, 2024](https://github.com/ramensoftware/windhawk-mods/blob/51ac1475409bef8bfd327dc81ac5dc7902aebb26/mods/accent-color-sync.wh.cpp))
+## 1.41 ([Oct 2, 2024](https://github.com/ramensoftware/windhawk-mods/blob/348943b2144394db60fe0cc076623d9d5c4cd561/mods/accent-color-sync.wh.cpp))
 
-Update to v1.5
+Update Accent Color Sync to v1.41
 
-## 1.32 ([Sep 5, 2024](https://github.com/ramensoftware/windhawk-mods/blob/8e36c64aa4169da3d94adb7631cde2f9ce4daa32/mods/accent-color-sync.wh.cpp))
+## 1.4 ([Sep 7, 2024](https://github.com/ramensoftware/windhawk-mods/blob/7292f722244cd19dc93c4438270bcc600b4bf2ec/mods/accent-color-sync.wh.cpp))
 
-Why does this happen
+* Replaced DWM Colorization Parameters calculation formula with [ALTaleX's method](https://github.com/ALTaleX531/dwm_colorization_calculator).
+* Compatibility check now returns the actual Windows version instead of the version returned from Explorer. This fixes the issue of the mod not being compatible with [explorer7](https://github.com/Erizur/explorer7-releases/).
+* Updated readme.
 
-## 1.32 ([Sep 5, 2024](https://github.com/ramensoftware/windhawk-mods/blob/0954a6bfe3194e78c92c4dc170ba33fdbc597a20/mods/accent-color-sync.wh.cpp))
+## 1.31 ([Jul 27, 2024](https://github.com/ramensoftware/windhawk-mods/blob/940c28ba0fb4ccebb782988516dd6bb5a7f23de0/mods/accent-color-sync.wh.cpp))
 
-Fixed
-
-## 1.32 ([Sep 5, 2024](https://github.com/ramensoftware/windhawk-mods/blob/b4ec798453087e98bbd2b95f03ea40e27f41fb04/mods/accent-color-sync.wh.cpp))
-
-Forgot to change the id
-
-## 1.32 ([Sep 5, 2024](https://github.com/ramensoftware/windhawk-mods/blob/0d6388e5b53cd8283f9623c5ea7b482a91dd6f16/mods/accent-color-sync.wh.cpp))
-
-Update
-
-## 1.31 ([Jul 27, 2024](https://github.com/ramensoftware/windhawk-mods/blob/bced7ea8ac93c0d05793f47258136e80da4e065d/mods/accent-color-sync.wh.cpp))
-
-Update Accent Color Sync
+* Set *Sync with DWM* option to enabled by default, and added notice for updating regarding this option in the readme.
+* Update French and Spanish translation.
 
 ## 1.3 ([Jul 23, 2024](https://github.com/ramensoftware/windhawk-mods/blob/7c4df7d217e3e09907079ed0d5a13df0cf64d5f0/mods/accent-color-sync.wh.cpp))
 
