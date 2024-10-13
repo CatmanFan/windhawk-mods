@@ -1,3 +1,7 @@
+## 1.5 ([Oct 13, 2024](https://github.com/ramensoftware/windhawk-mods/blob/ed67317c5dc97ee6686e7387881c5e32df5ad39e/mods/accent-color-sync.wh.cpp))
+
+Clarification in readme
+
 ## 1.5 ([Oct 13, 2024](https://github.com/ramensoftware/windhawk-mods/blob/53a33dcc92b80f87436533413a9bc59a2a585320/mods/accent-color-sync.wh.cpp))
 
 Update Accent Color Sync to v1.5
