@@ -1,3 +1,7 @@
+## 1.5 ([Oct 13, 2024](https://github.com/ramensoftware/windhawk-mods/blob/53a33dcc92b80f87436533413a9bc59a2a585320/mods/accent-color-sync.wh.cpp))
+
+Update Accent Color Sync to v1.5
+
 ## 1.41 ([Oct 2, 2024](https://github.com/ramensoftware/windhawk-mods/blob/4ab0994ab79cb76e217a4b658639f98875959b4a/mods/accent-color-sync.wh.cpp))
 
 * Hotfix to account for new OpenGlass registry values as announced in the [latest update](https://github.com/ALTaleX531/OpenGlass/releases/tag/v1.2-legacy).
