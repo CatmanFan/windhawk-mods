@@ -1,3 +1,7 @@
+## 1.5 ([Oct 13, 2024](https://github.com/ramensoftware/windhawk-mods/blob/4bad386b6665164bb65938605326e5be1e6096e2/mods/accent-color-sync.wh.cpp))
+
+Minor linebreak in readme
+
 ## 1.5 ([Oct 13, 2024](https://github.com/ramensoftware/windhawk-mods/blob/ed67317c5dc97ee6686e7387881c5e32df5ad39e/mods/accent-color-sync.wh.cpp))
 
 Clarification in readme
