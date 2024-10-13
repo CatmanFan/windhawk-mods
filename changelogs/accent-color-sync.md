@@ -1,3 +1,7 @@
+## 1.5 ([Oct 13, 2024](https://github.com/ramensoftware/windhawk-mods/blob/3bee1a54f0883a5b5387fed0b6ca7a1dff0b3eea/mods/accent-color-sync.wh.cpp))
+
+ja-JP: Fullwidth to regular Latin characters
+
 ## 1.5 ([Oct 13, 2024](https://github.com/ramensoftware/windhawk-mods/blob/4bad386b6665164bb65938605326e5be1e6096e2/mods/accent-color-sync.wh.cpp))
 
 Minor linebreak in readme
