@@ -1,3 +1,7 @@
+## 1.51 ([Oct 13, 2024](https://github.com/ramensoftware/windhawk-mods/blob/41f9f2b2a669fc8b9dcd36b6b5bff697f3b1c913/mods/accent-color-sync.wh.cpp))
+
+Update Accent Color Sync to v1.51
+
 ## 1.5 ([Oct 13, 2024](https://github.com/ramensoftware/windhawk-mods/blob/b788c556e80d06c9ae315e53830396ff92ee1d59/mods/accent-color-sync.wh.cpp))
 
 * Fixed margins of error with the DWM colorization calculator formula, making it more accurate to ALTaleX's original Python code.
