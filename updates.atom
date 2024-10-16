@@ -2,12 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://windhawk.net/</id>
     <title>Windhawk Mod Updates</title>
-    <updated>2024-10-16T12:12:54.000Z</updated>
+    <updated>2024-10-16T12:22:31.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://windhawk.net/"/>
     <subtitle>Updates in the official collection of Windhawk mods</subtitle>
     <icon>https://windhawk.net/favicon.ico</icon>
     <rights>Ramen Software</rights>
+    <entry>
+        <title type="html"><![CDATA[Accent Color Sync 1.52]]></title>
+        <id>https://windhawk.net/mods/accent-color-sync#c2bff648e7562ec97f01e067e51f4c6946ac5c6c</id>
+        <link href="https://windhawk.net/mods/accent-color-sync"/>
+        <updated>2024-10-16T12:22:31.000Z</updated>
+        <content type="html"><![CDATA[<p>Update accent-color-sync.wh.cpp</p>]]></content>
+        <author>
+            <name>CatmanFan / Mr._Lechkar</name>
+            <uri>https://github.com/CatmanFan</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Accent Color Sync 1.52]]></title>
         <id>https://windhawk.net/mods/accent-color-sync#15328b9d07cfa30e71e5a541bea91db4fb9ac5c6</id>
@@ -286,17 +297,6 @@ or a similar tool), enable the relevant option in the mod's settings.</p>
         <author>
             <name>Waldemar</name>
             <uri>https://github.com/CyprinusCarpio</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Classic Theme Explorer Lite 1.1.2]]></title>
-        <id>https://windhawk.net/mods/classic-theme-explorer-lite#4e8186fedde55e38422264383447bbb570fde161</id>
-        <link href="https://windhawk.net/mods/classic-theme-explorer-lite"/>
-        <updated>2024-10-06T07:06:35.000Z</updated>
-        <content type="html"><![CDATA[<p>Add additional check to the ClientEdge adder at suggestion of @aubymori</p>]]></content>
-        <author>
-            <name>Anixx</name>
-            <uri>https://github.com/Anixx</uri>
         </author>
     </entry>
 </feed>
