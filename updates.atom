@@ -2,29 +2,235 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://windhawk.net/</id>
     <title>Windhawk Mod Updates</title>
-    <updated>2024-10-16T12:22:31.000Z</updated>
+    <updated>2024-10-22T17:46:14.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://windhawk.net/"/>
     <subtitle>Updates in the official collection of Windhawk mods</subtitle>
     <icon>https://windhawk.net/favicon.ico</icon>
     <rights>Ramen Software</rights>
     <entry>
-        <title type="html"><![CDATA[Accent Color Sync 1.52]]></title>
-        <id>https://windhawk.net/mods/accent-color-sync#c2bff648e7562ec97f01e067e51f4c6946ac5c6c</id>
-        <link href="https://windhawk.net/mods/accent-color-sync"/>
-        <updated>2024-10-16T12:22:31.000Z</updated>
-        <content type="html"><![CDATA[<p>Update accent-color-sync.wh.cpp</p>]]></content>
+        <title type="html"><![CDATA[Taskbar classic context menu 1.0.1]]></title>
+        <id>https://windhawk.net/mods/taskbar-classic-menu#5edf7a5636ee40a9517e7034918c8e5c0a32f9bf</id>
+        <link href="https://windhawk.net/mods/taskbar-classic-menu"/>
+        <updated>2024-10-22T17:46:14.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Fixed the mod not working in some cases. Specifically, if the Windows TaskbarShiftRightClickCrash feature flag was enabled, right click acted as a left click instead of showing the classic context menu.</li>
+<li>The "Customize the old taskbar on Windows 11" option no longer needs to be enabled for the mod to work with the ExplorerPatcher taskbar.</li>
+</ul>]]></content>
         <author>
-            <name>CatmanFan / Mr._Lechkar</name>
-            <uri>https://github.com/CatmanFan</uri>
+            <name>m417z</name>
+            <uri>https://github.com/m417z</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cycle through taskbar windows on click 1.1.1]]></title>
+        <id>https://windhawk.net/mods/taskbar-left-click-cycle#c04dfbc63407803920ca0699c8b2a160e23d757b</id>
+        <link href="https://windhawk.net/mods/taskbar-left-click-cycle"/>
+        <updated>2024-10-22T09:20:26.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Fixed initialization with the ExplorerPatcher taskbar. ExplorerPatcher 66.7 or newer is supported.</li>
+<li>The "Customize the old taskbar on Windows 11" option no longer needs to be enabled for the mod to work with the ExplorerPatcher taskbar.</li>
+</ul>]]></content>
+        <author>
+            <name>m417z</name>
+            <uri>https://github.com/m417z</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cycle through taskbar windows on click 1.1]]></title>
+        <id>https://windhawk.net/mods/taskbar-left-click-cycle#8453e019ee77e74f2025ed5a247755d8cdd78f07</id>
+        <link href="https://windhawk.net/mods/taskbar-left-click-cycle"/>
+        <updated>2024-10-22T07:08:59.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Added support for cycling with Win+# hotkeys (Win+1, Win+2, etc.).</li>
+<li>Added support for the ExplorerPatcher taskbar. Versions newer than 66.7 are supported. The "Customize the old taskbar on Windows 11" option must be enabled for the mod to work with the ExplorerPatcher taskbar.</li>
+</ul>]]></content>
+        <author>
+            <name>m417z</name>
+            <uri>https://github.com/m417z</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Small Tray Icons on Touch 1.0.0]]></title>
+        <id>https://windhawk.net/mods/small-tray-icons-on-touch#b0de62a9c187168ae36e6315fada01230a844706</id>
+        <link href="https://windhawk.net/mods/small-tray-icons-on-touch"/>
+        <updated>2024-10-21T14:39:11.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="smalltrayiconsontouch">Small Tray Icons on Touch</h1>
+<p>The Windows 10 taskbar has increased tray icon size on touch screens.
+This mod disables that functionality.</p>
+<h1 id="importantread">IMPORTANT: READ!</h1>
+<p>Windhawk needs to hook into <code>winlogon.exe</code> to successfully capture Explorer starting. Please
+navigate to Windhawk's Settings, Advanced settings, More advanced settings, and make sure that
+<code>winlogon.exe</code> is in the Process inclusion list.</p>
+<p><strong>Before</strong>:</p>
+<p><img src="https://raw.githubusercontent.com/aubymori/images/refs/heads/main/small-tray-icons-on-touch-before.png" alt="Before" /></p>
+<p><strong>After</strong>:</p>
+<p><img src="https://raw.githubusercontent.com/aubymori/images/refs/heads/main/small-tray-icons-on-touch-after.png" alt="After" /></p>]]></content>
+        <author>
+            <name>aubymori</name>
+            <uri>https://github.com/aubymori</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Taskbar Labels for Windows 11 1.3.2]]></title>
+        <id>https://windhawk.net/mods/taskbar-labels#0951986351d82332cd99a2335f16f6fbcb22033b</id>
+        <link href="https://windhawk.net/mods/taskbar-labels"/>
+        <updated>2024-10-20T18:54:12.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Added an option exclude programs by application ids.</li>
+<li>Fixed the "Minimum taskbar item width" option that stopped working after a recent update of Windows 11 version 23H2.</li>
+</ul>]]></content>
+        <author>
+            <name>m417z</name>
+            <uri>https://github.com/m417z</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Desktop icons view 1.0]]></title>
+        <id>https://windhawk.net/mods/desktop-icons-view#d66d37820e212b023e90d78be46d47e0d806cd21</id>
+        <link href="https://windhawk.net/mods/desktop-icons-view"/>
+        <updated>2024-10-19T20:23:49.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="desktopiconsview">Desktop icons view</h1>
+<p>Change desktop icons view to list, details, small icons, or tiles.</p>
+<p>Based on <a href="https://github.com/deanm/lvd">List view desktop</a>.</p>
+<h3 id="acknowledgements">Acknowledgements</h3>
+<ul>
+<li><strong>nvhhr</strong>: Coming up with the mod idea, testing.</li>
+</ul>
+<h3 id="screenshots">Screenshots</h3>
+<p><img src="https://i.imgur.com/51q6OKl.png" alt="List" /><br />
+<em>List</em></p>
+<p><img src="https://i.imgur.com/a5qBigL.png" alt="Details" /><br />
+<em>Details</em></p>
+<p><img src="https://i.imgur.com/PM4MfMs.png" alt="Small icons" /><br />
+<em>Small icons</em></p>
+<p><img src="https://i.imgur.com/gqTawuD.png" alt="Tiles" /><br />
+<em>Tiles</em></p>]]></content>
+        <author>
+            <name>m417z</name>
+            <uri>https://github.com/m417z</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Taskbar on top for Windows 11 1.0.3]]></title>
+        <id>https://windhawk.net/mods/taskbar-on-top#ab4920afd69b029af1091d6f9598dd1c1c90eed8</id>
+        <link href="https://windhawk.net/mods/taskbar-on-top"/>
+        <updated>2024-10-19T13:43:31.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Improved compatibility with some programs which query the taskbar location, such as EarTrumpet.</li>
+<li>Adjusted jump list menu animations.</li>
+</ul>]]></content>
+        <author>
+            <name>m417z</name>
+            <uri>https://github.com/m417z</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Taskbar on top for Windows 11 1.0.2]]></title>
+        <id>https://windhawk.net/mods/taskbar-on-top#8d4c428d099ef834d8f616a0c78157a58b4ac458</id>
+        <link href="https://windhawk.net/mods/taskbar-on-top"/>
+        <updated>2024-10-19T00:17:53.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Fixed tray icon context menu not being clickable.</li>
+<li>Improved compatibility with some devices, mostly tablets and touchscreen devices.</li>
+<li>Fixed jump list position for multiple monitors in some cases.</li>
+</ul>]]></content>
+        <author>
+            <name>m417z</name>
+            <uri>https://github.com/m417z</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Classic Explorer navigation bar 1.0.5]]></title>
+        <id>https://windhawk.net/mods/explorer-frame-classic#6abf544f133985c4183a91922242030087e3cb5d</id>
+        <link href="https://windhawk.net/mods/explorer-frame-classic"/>
+        <updated>2024-10-19T00:01:55.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Fixed incorrect height if the <code>FileExplorerTabLineFix</code> (51960011) Windows flag is set.</li>
+</ul>]]></content>
+        <author>
+            <name>m417z</name>
+            <uri>https://github.com/m417z</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Taskbar height and icon size 1.2.14]]></title>
+        <id>https://windhawk.net/mods/taskbar-icon-size#f467a936801ea310cbb3cb2b28c6dc161ad8b035</id>
+        <link href="https://windhawk.net/mods/taskbar-icon-size"/>
+        <updated>2024-10-18T14:18:36.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Fixed a crash in old builds of Windows 11 version 22H2.</li>
+</ul>]]></content>
+        <author>
+            <name>m417z</name>
+            <uri>https://github.com/m417z</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Classic context menu on Windows 11 1.0.1]]></title>
+        <id>https://windhawk.net/mods/explorer-context-menu-classic#c8eadfbaf090fe07d59e1bc6f599654d14aab3a8</id>
+        <link href="https://windhawk.net/mods/explorer-context-menu-classic"/>
+        <updated>2024-10-18T11:52:15.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Fixed explorer navigation pane still showing the new menu.</li>
+</ul>]]></content>
+        <author>
+            <name>m417z</name>
+            <uri>https://github.com/m417z</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Taskbar height and icon size 1.2.13]]></title>
+        <id>https://windhawk.net/mods/taskbar-icon-size#15a36d25f1e1d553934030cd6f4e0263a7eec31c</id>
+        <link href="https://windhawk.net/mods/taskbar-icon-size"/>
+        <updated>2024-10-18T09:01:54.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>The small 16x16 icons are now used for small icons. Previously the larger 32x32 icons were downscaled in some cases.</li>
+<li>Improved tablet mode support and have the height applied in more cases.</li>
+</ul>]]></content>
+        <author>
+            <name>m417z</name>
+            <uri>https://github.com/m417z</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Resource Redirect 1.1.7]]></title>
+        <id>https://windhawk.net/mods/icon-resource-redirect#951ca39188471a50c458d2ba5cded4f96a03e392</id>
+        <link href="https://windhawk.net/mods/icon-resource-redirect"/>
+        <updated>2024-10-17T18:39:34.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Improved DirectUI string redirection.</li>
+<li>Improved string redirection to apply in more cases.</li>
+<li>Added an experimental option to redirect all resources, not only the supported resources that are listed in the description.</li>
+</ul>]]></content>
+        <author>
+            <name>m417z</name>
+            <uri>https://github.com/m417z</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Click on empty taskbar space 1.5]]></title>
+        <id>https://windhawk.net/mods/taskbar-empty-space-clicks#7f0e516d77c2e3f4f8ce32e6d2eee126d5456af6</id>
+        <link href="https://windhawk.net/mods/taskbar-empty-space-clicks"/>
+        <updated>2024-10-16T18:56:15.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Fixed execution of task manager on Windows 11 24H2</li>
+</ul>]]></content>
+        <author>
+            <name>m1lhaus</name>
+            <uri>https://github.com/m1lhaus</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Accent Color Sync 1.52]]></title>
-        <id>https://windhawk.net/mods/accent-color-sync#15328b9d07cfa30e71e5a541bea91db4fb9ac5c6</id>
+        <id>https://windhawk.net/mods/accent-color-sync#eb6dedd8df15020401723ccc9e1a82ed0246c9ce</id>
         <link href="https://windhawk.net/mods/accent-color-sync"/>
-        <updated>2024-10-16T12:12:54.000Z</updated>
-        <content type="html"><![CDATA[<p>Update accent-color-sync.wh.cpp</p>]]></content>
+        <updated>2024-10-16T12:51:06.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>OpenGlass: Removed old registry name option as it's redundant for the latest versions.</li>
+<li>OpenGlass: Fixed incompatibility with OpenGlass DComp (a registry value had been fixed at zero, which caused a visual bug on that version).</li>
+<li>Fixed compatibility for legacy versions of Windows 10 (1709 and below).</li>
+</ul>]]></content>
         <author>
             <name>CatmanFan / Mr._Lechkar</name>
             <uri>https://github.com/CatmanFan</uri>
@@ -109,194 +315,6 @@
         <author>
             <name>m417z</name>
             <uri>https://github.com/m417z</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Taskbar classic context menu 1.0]]></title>
-        <id>https://windhawk.net/mods/taskbar-classic-menu#eb7a7948afa4a9c28ddab5b6437d61abb001017d</id>
-        <link href="https://windhawk.net/mods/taskbar-classic-menu"/>
-        <updated>2024-10-12T16:41:43.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="taskbarclassiccontextmenu">Taskbar classic context menu</h1>
-<p>Show the classic context menu when right-clicking on taskbar items. You can hold
-the Shift key to show the default jump list.</p>
-<p>Only Windows 10 64-bit and Windows 11 are supported. For other Windows versions
-check out <a href="https://tweaker.ramensoftware.com/">7+ Taskbar Tweaker</a>.</p>
-<p><strong>Note:</strong> To customize the old taskbar on Windows 11 (if using ExplorerPatcher
-or a similar tool), enable the relevant option in the mod's settings.</p>
-<p><img src="https://i.imgur.com/lQEHQyR.png" alt="Demonstration" /></p>]]></content>
-        <author>
-            <name>m417z</name>
-            <uri>https://github.com/m417z</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Classic Explorer Treeview 1.1.2]]></title>
-        <id>https://windhawk.net/mods/classic-explorer-treeview#e5a77cad35db119b7a798eb68597cead108a76a2</id>
-        <link href="https://windhawk.net/mods/classic-explorer-treeview"/>
-        <updated>2024-10-12T13:48:06.000Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>Added a option to enable item hot tracking</li>
-</ul>]]></content>
-        <author>
-            <name>Waldemar</name>
-            <uri>https://github.com/CyprinusCarpio</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Classic context menu on Windows 11 1.0]]></title>
-        <id>https://windhawk.net/mods/explorer-context-menu-classic#2f13948e7bb608a46585e61523aebc0c9a283b20</id>
-        <link href="https://windhawk.net/mods/explorer-context-menu-classic"/>
-        <updated>2024-10-12T08:46:26.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="classiccontextmenuonwindows11">Classic context menu on Windows 11</h1>
-<p>Always show the classic context menu without having to select "Show More
-Options" or hold Shift.</p>
-<p>You can hold the Ctrl key to temporarily disable the mod and open the new menu.</p>
-<p><img src="https://i.imgur.com/GIdzI5V.png" alt="Demonstration" /></p>]]></content>
-        <author>
-            <name>m417z</name>
-            <uri>https://github.com/m417z</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Classic Theme Enable with extended compatibility 1.3.1]]></title>
-        <id>https://windhawk.net/mods/classic-theme-enable-with-extended-compatibility#3934b846909350ae091ae036a3756d10298aa106</id>
-        <link href="https://windhawk.net/mods/classic-theme-enable-with-extended-compatibility"/>
-        <updated>2024-10-12T07:13:02.000Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>CPU usage optimization for the console session, which may wait for the session activation for a long time.</li>
-</ul>]]></content>
-        <author>
-            <name>Roland Pihlakas</name>
-            <uri>https://github.com/levitation</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Disable grouping on the taskbar 1.3.7]]></title>
-        <id>https://windhawk.net/mods/taskbar-grouping#b2f3b382fc4b9699326678d9440c6164ead46fae</id>
-        <link href="https://windhawk.net/mods/taskbar-grouping"/>
-        <updated>2024-10-11T21:32:20.000Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>Fixed support for the ExplorerPatcher taskbar.</li>
-</ul>]]></content>
-        <author>
-            <name>m417z</name>
-            <uri>https://github.com/m417z</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Middle click to close on the taskbar 1.0.7]]></title>
-        <id>https://windhawk.net/mods/taskbar-button-click#d190ad2c0e8b24bd6b46292507fceaad45472d8f</id>
-        <link href="https://windhawk.net/mods/taskbar-button-click"/>
-        <updated>2024-10-11T21:16:55.000Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>Holding Ctrl while middle clicking will end the running task. The key combination can be configured or disabled in the mod settings.</li>
-<li>Added support for the ExplorerPatcher taskbar. Versions newer than 22621.3880.66.6 are supported. The "Customize the old taskbar on Windows 11" option must be enabled for the mod to work with the ExplorerPatcher taskbar.</li>
-</ul>]]></content>
-        <author>
-            <name>m417z</name>
-            <uri>https://github.com/m417z</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Classic Theme Enable with extended compatibility 1.3.0]]></title>
-        <id>https://windhawk.net/mods/classic-theme-enable-with-extended-compatibility#551d89834d61b09d3f43e53f3b03055c9b9b57dd</id>
-        <link href="https://windhawk.net/mods/classic-theme-enable-with-extended-compatibility"/>
-        <updated>2024-10-11T18:36:51.000Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>Fixed issue of video drivers not starting properly in some computers when Windhawk with Classic theme mod is started very early during system start.</li>
-</ul>]]></content>
-        <author>
-            <name>Roland Pihlakas</name>
-            <uri>https://github.com/levitation</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Disable grouping on the taskbar 1.3.6]]></title>
-        <id>https://windhawk.net/mods/taskbar-grouping#46afafc524f2b7c879702a798e74e11f7fcfd70b</id>
-        <link href="https://windhawk.net/mods/taskbar-grouping"/>
-        <updated>2024-10-11T17:45:01.000Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>Fixed multiple pinned items sometimes appearing for the same program when using multiple monitors.</li>
-<li>Fixed pinned items getting an incorrect icon in some cases.</li>
-<li>Added support for the ExplorerPatcher taskbar. Versions newer than 22621.3880.66.6 are supported. The "Customize the old taskbar on Windows 11" option must be enabled for the mod to work with the ExplorerPatcher taskbar.</li>
-</ul>]]></content>
-        <author>
-            <name>m417z</name>
-            <uri>https://github.com/m417z</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hold Teams meeting thumbnail in place 1.0]]></title>
-        <id>https://windhawk.net/mods/hold-teams-meeting-thumbnail-in-place#3066a5a0c615f74915594ade1ef7c421a1dd5e6a</id>
-        <link href="https://windhawk.net/mods/hold-teams-meeting-thumbnail-in-place"/>
-        <updated>2024-10-11T16:36:59.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="maintainteamsmeetingthumbnailwindowposition">Maintain Teams meeting thumbnail window position</h1>
-<p>By default, Teams has an annoying feature. When Teams meeting window is minimised into a small overlay, and the user manually places that overlay into some location, then Teams later moves the overlay window into another location. If the user moves it back to their desired location, then after some time Teams overrides that again. This obviously interferes with usage of other programs.</p>
-<p>Lets stop the micromanagement!</p>
-<p>Current mod lets the user change the location of the minimised meeting thumbnail window as usual, but prevents Teams from moving the thumbnail window around on its own.</p>]]></content>
-        <author>
-            <name>Roland Pihlakas</name>
-            <uri>https://github.com/levitation</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Classic List Group Fix 1.1.0]]></title>
-        <id>https://windhawk.net/mods/classic-list-group-fix#733d035afe561ca4d014aa436c66d536a2702696</id>
-        <link href="https://windhawk.net/mods/classic-list-group-fix"/>
-        <updated>2024-10-08T08:38:50.000Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>Add option to visually hide the collapse button</li>
-<li>Correct header font</li>
-<li>Adapt header height to font, fonts larger than 8pt will look correct now</li>
-<li>General code cleanup, match modern Windhawk standards</li>
-<li>Refine mod description and README</li>
-</ul>]]></content>
-        <author>
-            <name>aubymori</name>
-            <uri>https://github.com/aubymori</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Disable Taskbar Thumbnails 1.0]]></title>
-        <id>https://windhawk.net/mods/taskbar-thumbnails#bf56fb745178ebecf2476f56ab57e0ab98c034f4</id>
-        <link href="https://windhawk.net/mods/taskbar-thumbnails"/>
-        <updated>2024-10-07T22:17:53.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="disabletaskbarthumbnails">Disable Taskbar Thumbnails</h1>
-<p>Disable taskbar thumbnails on hover, or replace them with a list.</p>
-<p>Only Windows 10 64-bit and Windows 11 are supported. For other Windows versions
-check out <a href="https://tweaker.ramensoftware.com/">7+ Taskbar Tweaker</a>.</p>
-<p><strong>Note:</strong> To customize the old taskbar on Windows 11 (if using ExplorerPatcher
-or a similar tool), enable the relevant option in the mod's settings.</p>
-<p><img src="https://i.imgur.com/62DSgxs.png" alt="Demonstration" /></p>]]></content>
-        <author>
-            <name>m417z</name>
-            <uri>https://github.com/m417z</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Remove Command Bar 1.0.1]]></title>
-        <id>https://windhawk.net/mods/remove-command-bar#257e03044689fb70c5b9f492a19258a463b037d6</id>
-        <link href="https://windhawk.net/mods/remove-command-bar"/>
-        <updated>2024-10-06T16:23:10.000Z</updated>
-        <content type="html"><![CDATA[<p>Limit to 64bit architecture.</p>]]></content>
-        <author>
-            <name>Waldemar</name>
-            <uri>https://github.com/CyprinusCarpio</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Classic Explorer Treeview 1.1.1]]></title>
-        <id>https://windhawk.net/mods/classic-explorer-treeview#5d24a3a59980affaff8b2e34006a3a3d788e006c</id>
-        <link href="https://windhawk.net/mods/classic-explorer-treeview"/>
-        <updated>2024-10-06T16:02:25.000Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>Added a option to draw a gradient background for the header for XP-like looks</li>
-<li>Added a context menu for the header like in real InfoBands</li>
-<li>A theme-accurate button frame is now drawn for the X button</li>
-</ul>]]></content>
-        <author>
-            <name>Waldemar</name>
-            <uri>https://github.com/CyprinusCarpio</uri>
         </author>
     </entry>
 </feed>

@@ -1,10 +1,8 @@
-## 1.52 ([Oct 16, 2024](https://github.com/ramensoftware/windhawk-mods/blob/c2bff648e7562ec97f01e067e51f4c6946ac5c6c/mods/accent-color-sync.wh.cpp))
+## 1.52 ([Oct 16, 2024](https://github.com/ramensoftware/windhawk-mods/blob/eb6dedd8df15020401723ccc9e1a82ed0246c9ce/mods/accent-color-sync.wh.cpp))
 
-Update accent-color-sync.wh.cpp
-
-## 1.52 ([Oct 16, 2024](https://github.com/ramensoftware/windhawk-mods/blob/15328b9d07cfa30e71e5a541bea91db4fb9ac5c6/mods/accent-color-sync.wh.cpp))
-
-Update accent-color-sync.wh.cpp
+* OpenGlass: Removed old registry name option as it's redundant for the latest versions.
+* OpenGlass: Fixed incompatibility with OpenGlass DComp (a registry value had been fixed at zero, which caused a visual bug on that version).
+* Fixed compatibility for legacy versions of Windows 10 (1709 and below).
 
 ## 1.51 ([Oct 13, 2024](https://github.com/ramensoftware/windhawk-mods/blob/b4fd17a79d7d27a688c194d2e85d2df6da981df4/mods/accent-color-sync.wh.cpp))
 
