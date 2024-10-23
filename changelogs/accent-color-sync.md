@@ -1,3 +1,7 @@
+## 1.53 ([Oct 23, 2024](https://github.com/ramensoftware/windhawk-mods/blob/9da4dd44f457a1442806d98c715f50e5acf5420f/mods/accent-color-sync.wh.cpp))
+
+Update accent-color-sync.wh.cpp
+
 ## 1.52 ([Oct 16, 2024](https://github.com/ramensoftware/windhawk-mods/blob/eb6dedd8df15020401723ccc9e1a82ed0246c9ce/mods/accent-color-sync.wh.cpp))
 
 * OpenGlass: Removed old registry name option as it's redundant for the latest versions.
