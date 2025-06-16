@@ -1,3 +1,7 @@
+## 1.6 ([Jun 16, 2025](https://github.com/ramensoftware/windhawk-mods/blob/098f0a7fb96cf4a2007aef2fca95e8c85279dd2d/mods/accent-color-sync.wh.cpp))
+
+Update Accent Color Sync to v1.6
+
 ## 1.53 ([Oct 23, 2024](https://github.com/ramensoftware/windhawk-mods/blob/9da4dd44f457a1442806d98c715f50e5acf5420f/mods/accent-color-sync.wh.cpp))
 
 Update accent-color-sync.wh.cpp
@@ -14,7 +18,6 @@ Update accent-color-sync.wh.cpp
   * Fixed a minor bug in which the "Fixed opacity" option in the mod settings was accidentally left enabled. Please disable the option manually if you are not planning on using the feature.
   * Fixed a bug in which the OpenGlass options were incorrectly swapped.
   * Updated readme to correct some things.
-
 
 ## 1.5 ([Oct 13, 2024](https://github.com/ramensoftware/windhawk-mods/blob/b788c556e80d06c9ae315e53830396ff92ee1d59/mods/accent-color-sync.wh.cpp))
 

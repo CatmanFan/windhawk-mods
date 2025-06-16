@@ -1,3 +1,25 @@
+## 1.4.3 ([Jun 5, 2025](https://github.com/ramensoftware/windhawk-mods/blob/bdeebf8bd041100629066e24ee8cbb49bcc2bd1a/mods/classic-desktop-icons.wh.cpp))
+
+- Improve desktop finding method
+- Improve label background setting method
+- Redo readme images, add Vista-style image
+
+## 1.4.2 ([May 26, 2025](https://github.com/ramensoftware/windhawk-mods/blob/bdad626e964738691119d2a07104bd58983957c0/mods/classic-desktop-icons.wh.cpp))
+
+- Fix bug with multiprocess Explorer
+
+## 1.4.1 ([Mar 30, 2025](https://github.com/ramensoftware/windhawk-mods/blob/cc7ca22005465e4a90c14158515cc3dccc0fe0ee/mods/classic-desktop-icons.wh.cpp))
+
+Remove unneeded `LoadComCtlModule` function, Explorer is always
+manifested to load Common Controls 6.0
+
+## 1.4 ([Mar 30, 2025](https://github.com/ramensoftware/windhawk-mods/blob/cbb294bc3f2c7de8473dd7e209eabd12e788c2cf/mods/classic-desktop-icons.wh.cpp))
+
+- Control classic selection style with an option
+- Add option to change top margin of the desktop view
+- Add option to restrict the desktop view to the working area on single-monitor systems
+All changes thanks to @kawapure
+
 ## 1.3.0 ([Jun 30, 2024](https://github.com/ramensoftware/windhawk-mods/blob/7d397e9a2b1f8831a2ea3730ab1823fa327e04e5/mods/classic-desktop-icons.wh.cpp))
 
 - Fix non-translucent selection rectangle (thanks @kawapure)

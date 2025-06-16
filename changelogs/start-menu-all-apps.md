@@ -1,3 +1,11 @@
+## 1.0.4 ([May 2, 2025](https://github.com/ramensoftware/windhawk-mods/blob/f911ce31938d67ff8b6182ddbef99d6a8048b77f/mods/start-menu-all-apps.wh.cpp))
+
+* Fixed compatibility with update KB5055627 for Windows 11 version 24H2.
+
+## 1.0.3 ([Jan 29, 2025](https://github.com/ramensoftware/windhawk-mods/blob/9266c1a00a43a728ba70e79c88995861adaf0b9c/mods/start-menu-all-apps.wh.cpp))
+
+* Fixed compatibility with update KB5050094 for Windows 11 version 24H2.
+
 ## 1.0.2 ([Nov 6, 2023](https://github.com/ramensoftware/windhawk-mods/blob/493534f65cc0d79d076054fa4e4f3c9ac280fd28/mods/start-menu-all-apps.wh.cpp))
 
 * Fixed compatibility with Windhawk v1.4.

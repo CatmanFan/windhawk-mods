@@ -1,3 +1,25 @@
+## 1.1.2 ([Mar 22, 2025](https://github.com/ramensoftware/windhawk-mods/blob/45104fb3435b9364f9905ad4e1bd8053739ec139/mods/taskbar-button-scroll.wh.cpp))
+
+* Fixed an incompatibility with recent Windows 11 preview builds.
+
+## 1.1.1 ([Feb 14, 2025](https://github.com/ramensoftware/windhawk-mods/blob/b6614250291822a82219a5eacb2d5bd68959936b/mods/taskbar-button-scroll.wh.cpp))
+
+* The aero peek effect is now canceled when scrolling over thumbnails (for the new thumbnail previews implementation in Windows 11).
+
+## 1.1 ([Feb 12, 2025](https://github.com/ramensoftware/windhawk-mods/blob/ceb0321bf91e11a795aa5c846bfb84864d73cb90/mods/taskbar-button-scroll.wh.cpp))
+
+* Added support for the new thumbnail previews implementation in Windows 11.
+* Added support for Windows 10.
+* Added support for the Windows 10 taskbar on Windows 11 (the relevant option has to be enabled in the mod settings).
+* Added support for the ExplorerPatcher taskbar. A version newer than ExplorerPatcher 67.1 is required. Currently, ExplorerPatcher 67.1 is the latest version, meaning that you'll have to wait for the next update. If you can't wait to try it, according to the maintainers of ExplorerPatcher, you can use [this pre-release version of the taskbar](https://github.com/ExplorerPatcher/ep_taskbar_releases/releases/tag/860073b).
+* Fixed the taskbar becoming hung when scrolling over a window which isn't responding.
+
+## 1.0.7 ([Nov 7, 2024](https://github.com/ramensoftware/windhawk-mods/blob/88f7a3c83a0d67d032d94c18d438fa0f0f407a30/mods/taskbar-button-scroll.wh.cpp))
+
+* Fixed all group items minimizing/restoring on scroll even when the group is not combined.
+* Fixed compatibility with the `ExtendedUIXamlRefresh` Windows feature flag.
+* Fixed thumbnails sometimes being stuck in an inconsistent state when scrolling over them.
+
 ## 1.0.6 ([May 4, 2024](https://github.com/ramensoftware/windhawk-mods/blob/3a87f5e12b5f2c6778b4256c45c8124c38fad2cc/mods/taskbar-button-scroll.wh.cpp))
 
 * Added an online symbol cache mechanism as a temporary workaround for the unavailable Microsoft symbols. Currently, this makes the mod work on Windows 11 versions 22631.3447 and 22631.3527. For more details, refer to [the relevant blog post](https://ramensoftware.com/windhawk-and-symbol-download-errors).

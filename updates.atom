@@ -2,94 +2,79 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://windhawk.net/</id>
     <title>Windhawk Mod Updates</title>
-    <updated>2024-10-23T01:09:40.000Z</updated>
+    <updated>2025-06-16T22:01:55.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://windhawk.net/"/>
     <subtitle>Updates in the official collection of Windhawk mods</subtitle>
     <icon>https://windhawk.net/favicon.ico</icon>
     <rights>Ramen Software</rights>
     <entry>
-        <title type="html"><![CDATA[Accent Color Sync 1.53]]></title>
-        <id>https://windhawk.net/mods/accent-color-sync#9da4dd44f457a1442806d98c715f50e5acf5420f</id>
+        <title type="html"><![CDATA[Accent Color Sync 1.6]]></title>
+        <id>https://windhawk.net/mods/accent-color-sync#098f0a7fb96cf4a2007aef2fca95e8c85279dd2d</id>
         <link href="https://windhawk.net/mods/accent-color-sync"/>
-        <updated>2024-10-23T01:09:40.000Z</updated>
-        <content type="html"><![CDATA[<p>Update accent-color-sync.wh.cpp</p>]]></content>
+        <updated>2025-06-16T22:01:55.000Z</updated>
+        <content type="html"><![CDATA[<p>Update Accent Color Sync to v1.6</p>]]></content>
         <author>
             <name>CatmanFan / Mr._Lechkar</name>
             <uri>https://github.com/CatmanFan</uri>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Taskbar classic context menu 1.0.1]]></title>
-        <id>https://windhawk.net/mods/taskbar-classic-menu#5edf7a5636ee40a9517e7034918c8e5c0a32f9bf</id>
-        <link href="https://windhawk.net/mods/taskbar-classic-menu"/>
-        <updated>2024-10-22T17:46:14.000Z</updated>
+        <title type="html"><![CDATA[Dark mode context menus 1.3]]></title>
+        <id>https://windhawk.net/mods/dark-menus#be51bf799c93646016dd5d2ea74043cf4f132b91</id>
+        <link href="https://windhawk.net/mods/dark-menus"/>
+        <updated>2025-06-15T13:34:02.000Z</updated>
         <content type="html"><![CDATA[<ul>
-<li>Fixed the mod not working in some cases. Specifically, if the Windows TaskbarShiftRightClickCrash feature flag was enabled, right click acted as a left click instead of showing the classic context menu.</li>
-<li>The "Customize the old taskbar on Windows 11" option no longer needs to be enabled for the mod to work with the ExplorerPatcher taskbar.</li>
+<li>Added feedback links to the readme</li>
+<li>Added menubar screenshots to the readme</li>
+<li>Added support for menubar</li>
+<li>Added a German translation</li>
+<li>Code cleanup</li>
 </ul>]]></content>
         <author>
-            <name>m417z</name>
-            <uri>https://github.com/m417z</uri>
+            <name>Mgg Sk</name>
+            <uri>https://github.com/MGGSK</uri>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Cycle through taskbar windows on click 1.1.1]]></title>
-        <id>https://windhawk.net/mods/taskbar-left-click-cycle#c04dfbc63407803920ca0699c8b2a160e23d757b</id>
-        <link href="https://windhawk.net/mods/taskbar-left-click-cycle"/>
-        <updated>2024-10-22T09:20:26.000Z</updated>
+        <title type="html"><![CDATA[Restore Button Pulse Animation 1.0.2]]></title>
+        <id>https://windhawk.net/mods/restore-button-pulse-anim#fa00bc7317f1d0bf94eea92249503fd3b4570b68</id>
+        <link href="https://windhawk.net/mods/restore-button-pulse-anim"/>
+        <updated>2025-06-08T17:14:01.000Z</updated>
         <content type="html"><![CDATA[<ul>
-<li>Fixed initialization with the ExplorerPatcher taskbar. ExplorerPatcher 66.7 or newer is supported.</li>
-<li>The "Customize the old taskbar on Windows 11" option no longer needs to be enabled for the mod to work with the ExplorerPatcher taskbar.</li>
+<li>Update <code>LoadComCtlModule</code> to reject comctl32.dll version 5.82</li>
 </ul>]]></content>
-        <author>
-            <name>m417z</name>
-            <uri>https://github.com/m417z</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cycle through taskbar windows on click 1.1]]></title>
-        <id>https://windhawk.net/mods/taskbar-left-click-cycle#8453e019ee77e74f2025ed5a247755d8cdd78f07</id>
-        <link href="https://windhawk.net/mods/taskbar-left-click-cycle"/>
-        <updated>2024-10-22T07:08:59.000Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>Added support for cycling with Win+# hotkeys (Win+1, Win+2, etc.).</li>
-<li>Added support for the ExplorerPatcher taskbar. Versions newer than 66.7 are supported. The "Customize the old taskbar on Windows 11" option must be enabled for the mod to work with the ExplorerPatcher taskbar.</li>
-</ul>]]></content>
-        <author>
-            <name>m417z</name>
-            <uri>https://github.com/m417z</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Small Tray Icons on Touch 1.0.0]]></title>
-        <id>https://windhawk.net/mods/small-tray-icons-on-touch#b0de62a9c187168ae36e6315fada01230a844706</id>
-        <link href="https://windhawk.net/mods/small-tray-icons-on-touch"/>
-        <updated>2024-10-21T14:39:11.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="smalltrayiconsontouch">Small Tray Icons on Touch</h1>
-<p>The Windows 10 taskbar has increased tray icon size on touch screens.
-This mod disables that functionality.</p>
-<h1 id="importantread">IMPORTANT: READ!</h1>
-<p>Windhawk needs to hook into <code>winlogon.exe</code> to successfully capture Explorer starting. Please
-navigate to Windhawk's Settings, Advanced settings, More advanced settings, and make sure that
-<code>winlogon.exe</code> is in the Process inclusion list.</p>
-<p><strong>Before</strong>:</p>
-<p><img src="https://raw.githubusercontent.com/aubymori/images/refs/heads/main/small-tray-icons-on-touch-before.png" alt="Before" /></p>
-<p><strong>After</strong>:</p>
-<p><img src="https://raw.githubusercontent.com/aubymori/images/refs/heads/main/small-tray-icons-on-touch-after.png" alt="After" /></p>]]></content>
         <author>
             <name>aubymori</name>
             <uri>https://github.com/aubymori</uri>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Taskbar Labels for Windows 11 1.3.2]]></title>
-        <id>https://windhawk.net/mods/taskbar-labels#0951986351d82332cd99a2335f16f6fbcb22033b</id>
-        <link href="https://windhawk.net/mods/taskbar-labels"/>
-        <updated>2024-10-20T18:54:12.000Z</updated>
+        <title type="html"><![CDATA[Clientedge Everywhere 1.3.0]]></title>
+        <id>https://windhawk.net/mods/clientedge-in-apps#18e33a9aefed371e0a4899da5e0fd7cb69cc2487</id>
+        <link href="https://windhawk.net/mods/clientedge-in-apps"/>
+        <updated>2025-06-08T15:08:53.000Z</updated>
         <content type="html"><![CDATA[<ul>
-<li>Added an option exclude programs by application ids.</li>
-<li>Fixed the "Minimum taskbar item width" option that stopped working after a recent update of Windows 11 version 23H2.</li>
+<li>Regedit (need for newer builds)</li>
+</ul>]]></content>
+        <author>
+            <name>anixx</name>
+            <uri>https://github.com/Anixx</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windows 11 Start Menu Styler 1.3]]></title>
+        <id>https://windhawk.net/mods/windows-11-start-menu-styler#4579380d42e30aea8898e502106df234cade7b3c</id>
+        <link href="https://windhawk.net/mods/windows-11-start-menu-styler"/>
+        <updated>2025-06-07T19:50:40.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Added an option to disable the new start menu layout. Recent Windows updates introduced some changes which broke some of the themes. The themes will be adapted to these changes in the future, but for now, this option can be used to temporarily revert them.</li>
+<li>Added themes: Windows10 (Minimal), LegacyFluent, OnlySearch.</li>
+<li>Updated themes: SideBySideMinimal, TranslucentStartMenu.</li>
+<li>Added style constants which can be defined once and used in multiple styles.</li>
+<li>Improved handling of commented targets and styles (starting with <code>//</code>), and added details about this in the mod's description.</li>
+<li>Added a built-in blur brush object, <code>WindhawkBlur</code>, which supports the <code>BlurAmount</code> and <code>TintColor</code> properties. For example: <code>Fill:=&lt;WindhawkBlur BlurAmount="10" TintColor="#80FF00FF"/&gt;</code>.</li>
+<li>Added support for the new WebView2 search menu.</li>
 </ul>]]></content>
         <author>
             <name>m417z</name>
@@ -97,39 +82,183 @@ navigate to Windhawk's Settings, Advanced settings, More advanced settings, and 
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Desktop icons view 1.0]]></title>
-        <id>https://windhawk.net/mods/desktop-icons-view#d66d37820e212b023e90d78be46d47e0d806cd21</id>
-        <link href="https://windhawk.net/mods/desktop-icons-view"/>
-        <updated>2024-10-19T20:23:49.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="desktopiconsview">Desktop icons view</h1>
-<p>Change desktop icons view to list, details, small icons, or tiles.</p>
-<p>Based on <a href="https://github.com/deanm/lvd">List view desktop</a>.</p>
-<h3 id="acknowledgements">Acknowledgements</h3>
+        <title type="html"><![CDATA[Titlebar For Everyone 0.1]]></title>
+        <id>https://windhawk.net/mods/titlebar-for-everyone#e5a2544f6e7d9b999509256d7f6a2ce7c3527501</id>
+        <link href="https://windhawk.net/mods/titlebar-for-everyone"/>
+        <updated>2025-06-07T14:28:44.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="titlebarforeveryone">Titlebar For Everyone</h1>
 <ul>
-<li><strong>nvhhr</strong>: Coming up with the mod idea, testing.</li>
+<li>Force native title bars and frames for various programs</li>
 </ul>
-<h3 id="screenshots">Screenshots</h3>
-<p><img src="https://i.imgur.com/51q6OKl.png" alt="List" /><br />
-<em>List</em></p>
-<p><img src="https://i.imgur.com/a5qBigL.png" alt="Details" /><br />
-<em>Details</em></p>
-<p><img src="https://i.imgur.com/PM4MfMs.png" alt="Small icons" /><br />
-<em>Small icons</em></p>
-<p><img src="https://i.imgur.com/gqTawuD.png" alt="Tiles" /><br />
-<em>Tiles</em></p>]]></content>
+<h2 id="supportedprograms">Supported programs</h2>
+<ul>
+<li>Chromium browsers<ul>
+<li>Chrome</li>
+<li>Edge</li>
+<li>Supermium</li>
+<li>Etc. (not tested)</li>
+<li>Enabling the DWM mode (Aero/Mica) is recommended if you can. This will also remove the duplicate window controls</li>
+<li>Also provides an option to use the classic button face color in the DWM extended area for Classic theme users</li></ul></li>
+<li>Steam (non-VGUI)<ul>
+<li>Known issues: In the Basic style, the window control hover effects do not show</li></ul></li>
+<li>WinUI apps<ul>
+<li>PowerToys apps</li>
+<li>New Photos app</li>
+<li>Known issues: Some WinUI apps may show visual artifacts in their custom title bar area</li></ul></li>
+<li>WPF apps<ul>
+<li>Visual Studio (tested: 2022)</li>
+<li>PowerToys Workspaces</li></ul></li>
+<li>Office apps<ul>
+<li>Word, Excel, PowerPoint, OneNote, Access, Outlook, and Publisher</li>
+<li>Tested: 2010 and LTSC 2021 (Win10 mode)</li>
+<li>Known issues: on LTSC 2021, only Classic frames are shown (neither Basic nor DWM)</li></ul></li>
+<li>Some WebView2 apps<ul>
+<li>New Outlook</li>
+<li>Microsoft 365 Copilot</li></ul></li>
+<li>Hangul Word Processor<ul>
+<li>Tested: 2010 (using the system style is recommended)</li>
+<li>This mod also fixes the WM_NCACTIVATE bug present in the system style</li></ul></li>
+<li>Electron apps and CEF apps using <code>cef_window_create_top_level</code><ul>
+<li>Not included by default, but adding them manually to the inclusion list should work</li>
+<li>However, using this mod against those is not recommended</li>
+<li>For CEF apps using <code>cef_window_create_top_level</code>: use <a href="https://windhawk.net/mods/cef-titlebar-enabler-universal">CEF/Spotify Tweaks</a> instead. Add to the inclusion list manually for anything other than Spotify</li>
+<li>For Electron apps: try finding a built-in option to enable native frames first. If missing, patch files in <code>resources\app(.asar)</code> to override <code>frame: false</code> or <code>titleBarStyle: 'hidden'</code> to <code>frame: true</code> or <code>titleBarStyle: 'default'</code></li>
+<li>1Password: add <code>"appearance.useCustomTitleBar": false</code> to <code>%localappdata%\1Password\settings\settings.json</code></li>
+<li>VSCode &amp; forks (including Windhawk UI): Press F1, search and click <code>Preferences: Open Settings (UI)</code>, find <code>Window: Title Bar Style</code>, and set it to <code>native</code></li></ul></li>
+</ul>
+<h2 id="notsupportedprograms">Not supported programs</h2>
+<ul>
+<li>UWP apps<ul>
+<li>Use <a href="https://winclassic.net/thread/2041/remove-windows-10s-uwp-titlebars">this mod</a> instead</li></ul></li>
+<li>VMware Workstation/Player 16+<ul>
+<li>Use <a href="https://winclassic.net/thread/1568/change-vmware-titlebar-native-windows">this patch</a> instead</li></ul></li>
+<li>Firefox and derivatives<ul>
+<li>Just enable the title bar option in the customize page, or disable <code>browser.tabs.inTitlebar</code> in <code>about:config</code></li></ul></li>
+<li>NVIDIA apps<ul>
+<li>In the executable folder, look for <code>&lt;exe name without extension&gt;.json</code> (usually in the same directory or in <code>\Resources</code>), and change <code>nv-custom-black-window=true</code> to false</li></ul></li>
+</ul>
+<h2 id="notes">Notes</h2>
+<ul>
+<li>This mod does not deal with visual inconsistencies (e.g. duplicate window controls)</li>
+<li>Forcing the addition of your program to the inclusion list may work even if it's missing from the default list if it falls within the categories above (e.g., Chromium, WinUI)</li>
+<li>For other apps, you'll need to try adjusting the subclassing logic to get your target window to be subclassed properly</li>
+</ul>]]></content>
         <author>
-            <name>m417z</name>
-            <uri>https://github.com/m417z</uri>
+            <name>Ingan121</name>
+            <uri>https://github.com/Ingan121</uri>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Taskbar on top for Windows 11 1.0.3]]></title>
-        <id>https://windhawk.net/mods/taskbar-on-top#ab4920afd69b029af1091d6f9598dd1c1c90eed8</id>
-        <link href="https://windhawk.net/mods/taskbar-on-top"/>
-        <updated>2024-10-19T13:43:31.000Z</updated>
+        <title type="html"><![CDATA[Windows 11 Accent Window Border 1.0.0]]></title>
+        <id>https://windhawk.net/mods/win11-accent-border#1927abe816b6ff1d930fce7dc46ac527167bfd25</id>
+        <link href="https://windhawk.net/mods/win11-accent-border"/>
+        <updated>2025-06-06T16:52:21.000Z</updated>
+        <content type="html"><![CDATA[<p>Mimics the behavior the <em>Show accent color on title bars and window borders</em> setting had in Windows 11 Build 22000.</p>
+<p>When it was enabled in build 22000 the accent color appeared behind the Mica effect but in 22621 and newer it appears on top and it doesn't look that great. This mod restores the former behavior.</p>
+<p><strong>Make sure <em>Show accent color on title bars and window borders</em> is disabled as it conflicts with this mod!</strong></p>
+<p>Before:
+<img src="https://i.imgur.com/LnPyxkb.png" alt="image" /></p>
+<p>After:
+<img src="https://i.imgur.com/TpGSX6X.png" alt="image" /></p>
+<h1 id="colors">Colors</h1>
+<p>The focused color is always the accent color.</p>
+<p>You can use <code>AccentColorInactive</code> in <code>HKEY_CURRENT_USER\Software\Microsoft\Windows\DWM</code> to change the inactive color. This is a HEX value in BGR format.</p>]]></content>
+        <author>
+            <name>Guerra24</name>
+            <uri>https://github.com/Guerra24</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Classic Desktop Icons 1.4.3]]></title>
+        <id>https://windhawk.net/mods/classic-desktop-icons#bdeebf8bd041100629066e24ee8cbb49bcc2bd1a</id>
+        <link href="https://windhawk.net/mods/classic-desktop-icons"/>
+        <updated>2025-06-05T22:28:06.000Z</updated>
         <content type="html"><![CDATA[<ul>
-<li>Improved compatibility with some programs which query the taskbar location, such as EarTrumpet.</li>
-<li>Adjusted jump list menu animations.</li>
+<li>Improve desktop finding method</li>
+<li>Improve label background setting method</li>
+<li>Redo readme images, add Vista-style image</li>
+</ul>]]></content>
+        <author>
+            <name>aubymori</name>
+            <uri>https://github.com/aubymori</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Clientedge Everywhere 1.2.0]]></title>
+        <id>https://windhawk.net/mods/clientedge-in-apps#39f44c80c3c3557af96195e67589e8b399d40e7a</id>
+        <link href="https://windhawk.net/mods/clientedge-in-apps"/>
+        <updated>2025-06-05T12:51:36.000Z</updated>
+        <content type="html"><![CDATA[<p>Exclude Mathematica's toolboxes</p>]]></content>
+        <author>
+            <name>anixx</name>
+            <uri>https://github.com/Anixx</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CEF/Spotify Tweaks 1.2]]></title>
+        <id>https://windhawk.net/mods/cef-titlebar-enabler-universal#4341502030118d63157c4bc43d74f199aa667e19</id>
+        <link href="https://windhawk.net/mods/cef-titlebar-enabler-universal"/>
+        <updated>2025-06-05T11:40:46.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Fixed compatibility with the Translucent Windows mod<ul>
+<li>At least version 1.5 of the Translucent Windows mod is required. 1.4 and below are still not supported when the native frames are disabled</li></ul></li>
+</ul>]]></content>
+        <author>
+            <name>Ingan121</name>
+            <uri>https://github.com/Ingan121</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Translucent Windows 1.5.0]]></title>
+        <id>https://windhawk.net/mods/translucent-windows#0c981a8ec576c27ec33fcc70480c25083aecbb50</id>
+        <link href="https://windhawk.net/mods/translucent-windows"/>
+        <updated>2025-06-04T21:33:18.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Added Rainbow effect</li>
+<li>Additional windows theme parts are modified</li>
+<li>Added text alpha blending</li>
+<li>Changed BlurBehind to AccentBlurBehind</li>
+<li>Added DWMAPI immersive darkmode setting option</li>
+<li>Added window corner type setting option</li>
+<li>Fixed conflicting bugs with steamwebhelper.exe and firefox.exe programs</li>
+<li>Fixed conflicting bug with Slick Window Arrangement mod</li>
+</ul>]]></content>
+        <author>
+            <name>Undisputed00x</name>
+            <uri>https://github.com/Undisputed00x</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Touhou Keyboard Binds 1.0.0]]></title>
+        <id>https://windhawk.net/mods/touhou-kbd-binds#72a6608e9b6608a0a067f2b54148a6c59724a8e1</id>
+        <link href="https://windhawk.net/mods/touhou-kbd-binds"/>
+        <updated>2025-06-04T05:56:13.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="touhoukeyboardbinds">Touhou Keyboard Binds</h1>
+<p>From Touhou 6 to Touhou 17, keyboard bindings were unable to be changed within
+the game. This mod lets you set your own bindings.</p>
+<h2 id="importantusagenote">⚠️ Important usage note ⚠️</h2>
+<p>Windhawk may not inject into the game due to it being in a common game directory.
+If this occurs, add the game's executable to the process inclusion list in the advanced 
+settings.</p>
+<p><img src="https://i.imgur.com/LRhREtJ.png" alt="Advanced settings screenshot" /></p>
+<h2 id="keyformat">Key format</h2>
+<p>The key options can either be a single character, or one of the following keywords:</p>
+<p>None, Space, Up, Down, Left, Right, LCTRL, RCTRL, LControl, RControl, LAlt, RAlt, LShift,
+RShift, Tab, CapsLock, F1, F2, F3, F4, F5, F6, F7, F8, F9, F10, F11, F12, Numpad0, Numpad1,
+Numpad2, Numpad3, Numpad4, Numpad5, Numpad6, Numpad7, Numpad8, Numpad9</p>]]></content>
+        <author>
+            <name>aubymori</name>
+            <uri>https://github.com/aubymori</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Middle click to close on the taskbar 1.0.8]]></title>
+        <id>https://windhawk.net/mods/taskbar-button-click#78fc318a181cfb5299fab5beaf42a8726ebe5f9e</id>
+        <link href="https://windhawk.net/mods/taskbar-button-click"/>
+        <updated>2025-06-03T22:23:31.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Added support for ARM64.</li>
+<li>The "Customize the old taskbar on Windows 11" option no longer needs to be enabled for the mod to work with the ExplorerPatcher taskbar.</li>
 </ul>]]></content>
         <author>
             <name>m417z</name>
@@ -137,14 +266,12 @@ navigate to Windhawk's Settings, Advanced settings, More advanced settings, and 
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Taskbar on top for Windows 11 1.0.2]]></title>
-        <id>https://windhawk.net/mods/taskbar-on-top#8d4c428d099ef834d8f616a0c78157a58b4ac458</id>
-        <link href="https://windhawk.net/mods/taskbar-on-top"/>
-        <updated>2024-10-19T00:17:53.000Z</updated>
+        <title type="html"><![CDATA[Chrome/Edge scroll tabs with mouse wheel 1.2.1]]></title>
+        <id>https://windhawk.net/mods/chrome-wheel-scroll-tabs#451a0a24c7e026a0c86c10adfb44b8681ab24bb6</id>
+        <link href="https://windhawk.net/mods/chrome-wheel-scroll-tabs"/>
+        <updated>2025-06-03T20:29:55.000Z</updated>
         <content type="html"><![CDATA[<ul>
-<li>Fixed tray icon context menu not being clickable.</li>
-<li>Improved compatibility with some devices, mostly tablets and touchscreen devices.</li>
-<li>Fixed jump list position for multiple monitors in some cases.</li>
+<li>Fixed the recently-added options to limit the scroll area, which worked only for maximized windows.</li>
 </ul>]]></content>
         <author>
             <name>m417z</name>
@@ -152,12 +279,45 @@ navigate to Windhawk's Settings, Advanced settings, More advanced settings, and 
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Classic Explorer navigation bar 1.0.5]]></title>
-        <id>https://windhawk.net/mods/explorer-frame-classic#6abf544f133985c4183a91922242030087e3cb5d</id>
-        <link href="https://windhawk.net/mods/explorer-frame-classic"/>
-        <updated>2024-10-19T00:01:55.000Z</updated>
+        <title type="html"><![CDATA[Explorer Double Click Up 1.0.0]]></title>
+        <id>https://windhawk.net/mods/explorer-double-click-up#40afd947107997d91d611a3dc0f73daefebd27b6</id>
+        <link href="https://windhawk.net/mods/explorer-double-click-up"/>
+        <updated>2025-06-03T18:56:41.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="explorerdoubleclickup">Explorer Double Click Up</h1>
+<p>Double click empty space to go up a folder</p>
+<h2 id="windowsversionsupport">Windows version support</h2>
+<p>Will not work on anything older than Windows 10 due to use of WinRT.</p>]]></content>
+        <author>
+            <name>wrldspawn</name>
+            <uri>https://github.com/wrldspawn</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CEF/Spotify Tweaks 1.1]]></title>
+        <id>https://windhawk.net/mods/cef-titlebar-enabler-universal#5a9dafdec518bcd45686bc0e87f61858f7ce5d01</id>
+        <link href="https://windhawk.net/mods/cef-titlebar-enabler-universal"/>
+        <updated>2025-06-03T11:53:21.000Z</updated>
         <content type="html"><![CDATA[<ul>
-<li>Fixed incorrect height if the <code>FileExplorerTabLineFix</code> (51960011) Windows flag is set.</li>
+<li>Finally implemented proper transparency support for frameless windows<ul>
+<li>In frameless mode, this mod is not compatible with the <a href="https://windhawk.net/mods/translucent-windows">Translucent Windows</a> mod, due to the mod interfering with how this mod works around <a href="https://source.chromium.org/chromium/chromium/src/+/main:ui/views/win/hwnd_message_handler.cc;drc=339fea7fafdc1ba5b16e7b2fa6f9d996b65348a3;l=616">Chromium's weird code</a></li>
+<li>Please use <a href="https://github.com/MicaForEveryone/MicaForEveryone">MicaForEveryone</a> instead in frameless mode</li>
+<li>This does not apply when the native frame option is enabled. Translucent Windows will work fine in this mode</li></ul></li>
+<li>Prevent bad memory scan results with zero match persisting as a cached count value</li>
+<li>Prevent various time-consuming memory patch operations from running on known incompatible versions</li>
+<li>Added support for disabling the forced dark mode in Spotify versions between 1.2.21 and 1.2.25</li>
+</ul>]]></content>
+        <author>
+            <name>Ingan121</name>
+            <uri>https://github.com/Ingan121</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Turn off change file extension warning 1.0.1]]></title>
+        <id>https://windhawk.net/mods/extension-change-no-warning#d6357847b9752c88e29c23c31cdecc9757c4941c</id>
+        <link href="https://windhawk.net/mods/extension-change-no-warning"/>
+        <updated>2025-06-02T20:02:59.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Improved compatibility with recent Windows updates.</li>
 </ul>]]></content>
         <author>
             <name>m417z</name>
@@ -165,149 +325,41 @@ navigate to Windhawk's Settings, Advanced settings, More advanced settings, and 
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Taskbar height and icon size 1.2.14]]></title>
-        <id>https://windhawk.net/mods/taskbar-icon-size#f467a936801ea310cbb3cb2b28c6dc161ad8b035</id>
-        <link href="https://windhawk.net/mods/taskbar-icon-size"/>
-        <updated>2024-10-18T14:18:36.000Z</updated>
+        <title type="html"><![CDATA[Windows 10 Colorization Tweaks 1.1.0]]></title>
+        <id>https://windhawk.net/mods/win10-colored-borders#4720593a6f529636dcb4d1b9c5dca96fda239c00</id>
+        <link href="https://windhawk.net/mods/win10-colored-borders"/>
+        <updated>2025-06-02T17:13:22.000Z</updated>
         <content type="html"><![CDATA[<ul>
-<li>Fixed a crash in old builds of Windows 11 version 22H2.</li>
+<li>Add the ability to force windows to use either light or dark theme always</li>
+<li>Rename the mod from "Windows 10 Colored Borders" to "Windows 10 Colorization Tweaks"</li>
 </ul>]]></content>
         <author>
-            <name>m417z</name>
-            <uri>https://github.com/m417z</uri>
+            <name>aubymori</name>
+            <uri>https://github.com/aubymori</uri>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Classic context menu on Windows 11 1.0.1]]></title>
-        <id>https://windhawk.net/mods/explorer-context-menu-classic#c8eadfbaf090fe07d59e1bc6f599654d14aab3a8</id>
-        <link href="https://windhawk.net/mods/explorer-context-menu-classic"/>
-        <updated>2024-10-18T11:52:15.000Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>Fixed explorer navigation pane still showing the new menu.</li>
-</ul>]]></content>
+        <title type="html"><![CDATA[Winver Custom Text 1.0]]></title>
+        <id>https://windhawk.net/mods/winver-custom-text#9bf09a6887aed316e6503ca39ad5ef07298f3722</id>
+        <link href="https://windhawk.net/mods/winver-custom-text"/>
+        <updated>2025-06-02T12:10:27.000Z</updated>
+        <content type="html"><![CDATA[<p>Allows you to set the text displayed in winver.exe.</p>
+<p>If you dont know what winver is, its a file built in to Windows that simply displays info about your system:
+<img src="https://i.imgur.com/6XvNlWj.png" alt="winver.exe" /><br>
+This mod allows you to customize that.</p>]]></content>
         <author>
-            <name>m417z</name>
-            <uri>https://github.com/m417z</uri>
+            <name>Thomas Shrader</name>
+            <uri>https://github.com/ilikecoding-197</uri>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Taskbar height and icon size 1.2.13]]></title>
-        <id>https://windhawk.net/mods/taskbar-icon-size#15a36d25f1e1d553934030cd6f4e0263a7eec31c</id>
-        <link href="https://windhawk.net/mods/taskbar-icon-size"/>
-        <updated>2024-10-18T09:01:54.000Z</updated>
+        <title type="html"><![CDATA[Windows 11 File Explorer Styler 1.2]]></title>
+        <id>https://windhawk.net/mods/windows-11-file-explorer-styler#c08d8c4047fd99859a2d1449a2126ec56f20ec2d</id>
+        <link href="https://windhawk.net/mods/windows-11-file-explorer-styler"/>
+        <updated>2025-05-31T20:04:47.000Z</updated>
         <content type="html"><![CDATA[<ul>
-<li>The small 16x16 icons are now used for small icons. Previously the larger 32x32 icons were downscaled in some cases.</li>
-<li>Improved tablet mode support and have the height applied in more cases.</li>
-</ul>]]></content>
-        <author>
-            <name>m417z</name>
-            <uri>https://github.com/m417z</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Resource Redirect 1.1.7]]></title>
-        <id>https://windhawk.net/mods/icon-resource-redirect#951ca39188471a50c458d2ba5cded4f96a03e392</id>
-        <link href="https://windhawk.net/mods/icon-resource-redirect"/>
-        <updated>2024-10-17T18:39:34.000Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>Improved DirectUI string redirection.</li>
-<li>Improved string redirection to apply in more cases.</li>
-<li>Added an experimental option to redirect all resources, not only the supported resources that are listed in the description.</li>
-</ul>]]></content>
-        <author>
-            <name>m417z</name>
-            <uri>https://github.com/m417z</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Click on empty taskbar space 1.5]]></title>
-        <id>https://windhawk.net/mods/taskbar-empty-space-clicks#7f0e516d77c2e3f4f8ce32e6d2eee126d5456af6</id>
-        <link href="https://windhawk.net/mods/taskbar-empty-space-clicks"/>
-        <updated>2024-10-16T18:56:15.000Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>Fixed execution of task manager on Windows 11 24H2</li>
-</ul>]]></content>
-        <author>
-            <name>m1lhaus</name>
-            <uri>https://github.com/m1lhaus</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Accent Color Sync 1.52]]></title>
-        <id>https://windhawk.net/mods/accent-color-sync#eb6dedd8df15020401723ccc9e1a82ed0246c9ce</id>
-        <link href="https://windhawk.net/mods/accent-color-sync"/>
-        <updated>2024-10-16T12:51:06.000Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>OpenGlass: Removed old registry name option as it's redundant for the latest versions.</li>
-<li>OpenGlass: Fixed incompatibility with OpenGlass DComp (a registry value had been fixed at zero, which caused a visual bug on that version).</li>
-<li>Fixed compatibility for legacy versions of Windows 10 (1709 and below).</li>
-</ul>]]></content>
-        <author>
-            <name>CatmanFan / Mr._Lechkar</name>
-            <uri>https://github.com/CatmanFan</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Taskbar language indicator layout control 1.0]]></title>
-        <id>https://windhawk.net/mods/taskbar-language-indicator-layout-control#1aa590d6687dbcebbb6ff928534fe15b3a0881ea</id>
-        <link href="https://windhawk.net/mods/taskbar-language-indicator-layout-control"/>
-        <updated>2024-10-13T17:04:39.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="taskbarlanguageindicatorlayoutcontrol">Taskbar language indicator layout control</h1>
-<p>By default, Windows has a distracting feature: When language indicator is enabled and the user opens a Remote Desktop client window, the language bar is hidden, causing a jump in the taskbar layout. When the user switches to another program, the taskbar jumps again as the language indicator is reshown.</p>
-<p>Moreover, the language indicator configuration in Windows Settings is buggy even in a number of ways: Disabling the language indicator via Windows Settings does not "stick", after a reboot the indicator is visible again and needs to be turned off once more. As a smaller additional bug, the language indicator checkbox in acts weird, requiring the user to click the checkbox twice before it has effect. To confuse things even further, the checkbox description is reversed from what it should be.</p>
-<p>This mod is targeted at solving the language indicator problems once and for all.</p>
-<p>Under current mod's Settings you find four options to choose from for the language indicator layout:
-1) Make it visible except when Windows wants to hide it temporarily. At the same time, the layout is fixed by the mod. This means that when Windows hides the language indicator temporarily while a Remote Desktop window is in foreground, then the space for the indicator is preserved by the mod, thereby avoiding the tray area from jumping around - there will be an empty space preserving the place of the language indicator.
-2) Hide the language indicator persistently. This option is useful considering that after a reboot, Windows itself normally "forgets" the system setting to hide the language indicator. With this option, the mod overrides whatever Windows is trying to do to the language indicator.
-3) Make it always visible, including when a Remote Desktop window is in foreground. This option again prevents the tray area from jumping around. Note that when Remote Desktop window is in foreground, then the language choice visible in the language indicator has no real effect - it is there just to avoid visual distractions.
-4) Let Windows manage it. This option is conceptually equivalent to disabling this mod. But compared to mod disabling, choosing this option for temporary purposes might work faster and provides better Taskbar stability guarantees. If you do not need this mod anymore at all, then of course disable it.</p>]]></content>
-        <author>
-            <name>Roland Pihlakas</name>
-            <uri>https://github.com/levitation</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Accent Color Sync 1.51]]></title>
-        <id>https://windhawk.net/mods/accent-color-sync#b4fd17a79d7d27a688c194d2e85d2df6da981df4</id>
-        <link href="https://windhawk.net/mods/accent-color-sync"/>
-        <updated>2024-10-13T13:20:11.000Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li><strong>Hotfixes</strong></li>
-<li>Fixed a minor bug in which the "Fixed opacity" option in the mod settings was accidentally left enabled. Please disable the option manually if you are not planning on using the feature.</li>
-<li>Fixed a bug in which the OpenGlass options were incorrectly swapped.</li>
-<li>Updated readme to correct some things.</li>
-</ul>]]></content>
-        <author>
-            <name>CatmanFan / Mr._Lechkar</name>
-            <uri>https://github.com/CatmanFan</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Accent Color Sync 1.5]]></title>
-        <id>https://windhawk.net/mods/accent-color-sync#b788c556e80d06c9ae315e53830396ff92ee1d59</id>
-        <link href="https://windhawk.net/mods/accent-color-sync"/>
-        <updated>2024-10-13T06:16:37.000Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>Fixed margins of error with the DWM colorization calculator formula, making it more accurate to ALTaleX's original Python code.</li>
-<li>OpenGlass: Add option to toggle between using the old registry value name (i.e. "og_{xxx}") and the current one ("{xxx}Override") in mod settings</li>
-<li>Add (experimental) support for <a href="https://archive.org/details/full-glass8-archive">legacy Glass8</a></li>
-<li>Add option to set permanent fixed opacity (useful for automatic desktop background color!)</li>
-<li>Add Japanese translation</li>
-<li>Updated readme, settings and mod description</li>
-</ul>]]></content>
-        <author>
-            <name>CatmanFan / Mr._Lechkar</name>
-            <uri>https://github.com/CatmanFan</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Resource Redirect 1.1.6]]></title>
-        <id>https://windhawk.net/mods/icon-resource-redirect#1db804f1cdc96957d8e71132cf1378fc19d94ea2</id>
-        <link href="https://windhawk.net/mods/icon-resource-redirect"/>
-        <updated>2024-10-12T21:10:37.000Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>Improved DirectUI resources redirection (usually <code>UIFILE</code> and <code>XML</code>) to not affect sub resources such as strings, which are now loaded from the original file.</li>
-<li>Improved icon cache invalidation when settings change and when the mod is unloaded.</li>
+<li>Added a built-in blur brush object, <code>WindhawkBlur</code>, which supports the <code>BlurAmount</code> and <code>TintColor</code> properties. For example: <code>Fill:=&lt;WindhawkBlur BlurAmount="10" TintColor="#80FF00FF"/&gt;</code>.</li>
+<li>Added themes: Tabless, NoCommandBar, MicaBar.</li>
 </ul>]]></content>
         <author>
             <name>m417z</name>

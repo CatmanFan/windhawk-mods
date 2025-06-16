@@ -1,3 +1,30 @@
+## 1.4 ([May 9, 2025](https://github.com/ramensoftware/windhawk-mods/blob/29917c376199d3312e355f1b001dc3108040b7ca/mods/windows-11-taskbar-styler.wh.cpp))
+
+* Added style constants which can be defined once and used in multiple styles.
+* Added a built-in blur brush object, `WindhawkBlur`, which supports the `BlurAmount` and `TintColor` properties. For example: `Fill:=<WindhawkBlur BlurAmount="10" TintColor="#80FF00FF"/>`.
+* Improved handling of commented targets and styles (starting with `//`), and added details about this in the mod's description.
+* Added themes: BottomDensy, TaskbarXII, xdark.
+* Updated themes: DockLike, 21996Taskbar.
+  * The DockLike theme now applies correctly when a new monitor is attached.
+* Improved compatibility with status bar programs such as YASB and Zebar.
+
+## 1.3.10 ([Feb 18, 2025](https://github.com/ramensoftware/windhawk-mods/blob/969985c9efc19788571d93e85240a260c5ab0fc7/mods/windows-11-taskbar-styler.wh.cpp))
+
+* Improved support for the new thumbnail previews implementation in Windows 11 for the following themes: WinXP, TranslucentTaskbar, Squircle, RosePine, DockLike, CleanSlate, Lucent.
+* Fixed customizing the FontWeight property for some controls.
+
+## 1.3.9 ([Feb 1, 2025](https://github.com/ramensoftware/windhawk-mods/blob/42d2709e22df203d6f5765b796909dca2a286cf1/mods/windows-11-taskbar-styler.wh.cpp))
+
+* Added the 21996Taskbar theme.
+* Updated themes: WinXP, Lucent.
+* Empty visual states can now be targeted, can be useful in cases when there's no active visual state.
+* Fixed error 80070490 which sometime prevented the mod from loading.
+
+## 1.3.8 ([Oct 26, 2024](https://github.com/ramensoftware/windhawk-mods/blob/fde2dd9c8dafbf68a126fb25ec1b3f9587efd18b/mods/windows-11-taskbar-styler.wh.cpp))
+
+* Added themes: CleanSlate, Lucent.
+* Updated existing themes.
+
 ## 1.3.7 ([Jul 28, 2024](https://github.com/ramensoftware/windhawk-mods/blob/5ceffe5133b88ab09b00e41a846cd7a4bcb4e4c0/mods/windows-11-taskbar-styler.wh.cpp))
 
 * Added themes: DockLike, WinVista.

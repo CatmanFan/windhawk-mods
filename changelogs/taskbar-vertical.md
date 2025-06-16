@@ -1,3 +1,38 @@
+## 1.3.4 ([Mar 21, 2025](https://github.com/ramensoftware/windhawk-mods/blob/787a8c303d89449e75abd3f2a4677f26b7d16b0a/mods/taskbar-vertical.wh.cpp))
+
+* Added an option to customize the start menu vertical alignment.
+* Added an option to customize the clock container height.
+* Fixed an incompatibility with recent Windows 11 preview builds.
+* Fixed the new colored battery icon not being rotated.
+* Fixed a bug which could cause the taskbar to become hidden on system startup.
+
+## 1.3.3 ([Feb 8, 2025](https://github.com/ramensoftware/windhawk-mods/blob/cf9709ca613ae552c8f1d4a3ed9a029f916a9344/mods/taskbar-vertical.wh.cpp))
+
+* Added support for the new thumbnail previews implementation in Windows.
+* Improved start menu positioning.
+* Fixed crashes in recent Windows 11 builds when the taskbar overflow is used.
+* Fixed restoring jump list animation when the mod is disabled.
+
+## 1.3.2 ([Jan 29, 2025](https://github.com/ramensoftware/windhawk-mods/blob/2d855bfc1ee92c213a681996b36cb7997fb1594d/mods/taskbar-vertical.wh.cpp))
+
+* Show the running indicator on the right instead of the left when the taskbar is on the right.
+
+## 1.3.1 ([Jan 29, 2025](https://github.com/ramensoftware/windhawk-mods/blob/b4dba0e9ddf0dbcc0b0668b079cf7144ec54c298/mods/taskbar-vertical.wh.cpp))
+
+* Fixed the start menu width option not applying until restart in some cases.
+* Fixed context menus not appearing with monitors that are arranged vertically, one above the other.
+* Fixed compatibility with recent preview builds of Windows 11.
+
+## 1.3 ([Oct 23, 2024](https://github.com/ramensoftware/windhawk-mods/blob/b43bd5d00887601ed297b2366631494080f0dd3e/mods/taskbar-vertical.wh.cpp))
+
+* Fixed jump lists being cut off when opened near the edge of the screen.
+* Added a vertical alignment option for jump lists.
+* Adjusted jump list animations to slide from the correct direction.
+* Fixed tooltips overlapping with the taskbar in Windows 11 version 24H2.
+* Improved support for some devices, mostly tablets and devices with a touchscreen.
+* Improved compatibility with some programs which query the taskbar location, such as EarTrumpet.
+* This update requires Windhawk 1.5 or newer. If you're using an older Windhawk version, please update.
+
 ## 1.2.5 ([Oct 4, 2024](https://github.com/ramensoftware/windhawk-mods/blob/31cb0bda3c0d239f220fad072bd4a2be53c6ff05/mods/taskbar-vertical.wh.cpp))
 
 * Improved tray overflow position, now it's vertically centered to the mouse position and isn't shown far away from the taskbar.

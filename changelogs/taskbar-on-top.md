@@ -1,3 +1,35 @@
+## 1.1.3 ([May 31, 2025](https://github.com/ramensoftware/windhawk-mods/blob/f696c21820a69cca5815ca7deca1f0a91675b5c0/mods/taskbar-on-top.wh.cpp))
+
+* Fixed tooltips covering the tray icons in the first row of the overflow popup.
+* Fixed the placement of thumbnail previews in recent Windows builds.
+* Improved the placement of thumbnail preview tooltips.
+* The task view popup is now shown at the top of the screen and not no the bottom.
+* Improved compatibility with status bar programs such as YASB and Zebar.
+
+## 1.1.2 ([Mar 22, 2025](https://github.com/ramensoftware/windhawk-mods/blob/7a9a61a0563a031b366c70f4e4620f7c97a371b4/mods/taskbar-on-top.wh.cpp))
+
+* Fixed an incompatibility with recent Windows 11 preview builds.
+* Fixed context menus of taskbar items being covered by the overflow popup.
+* Fixed thumbnail preview tooltips covering the close button on hover.
+* Fixed thumbnail preview positions when a touch screen is used.
+
+## 1.1.1 ([Feb 8, 2025](https://github.com/ramensoftware/windhawk-mods/blob/33d869f823bca2613379a3ce5664cc27b0e9471d/mods/taskbar-on-top.wh.cpp))
+
+* Added support for the new thumbnail previews implementation in Windows.
+
+## 1.1 ([Jan 29, 2025](https://github.com/ramensoftware/windhawk-mods/blob/124523bc261918872e9ca412c587f832519d7a01/mods/taskbar-on-top.wh.cpp))
+
+* Added an option to show running indicators above the taskbar icons.
+* Fixed context menus not appearing with monitors that are arranged vertically, one above the other.
+
+## 1.0.5 ([Nov 3, 2024](https://github.com/ramensoftware/windhawk-mods/blob/25345e441de9f8b292d8a2d316c06ac6869e3ced/mods/taskbar-on-top.wh.cpp))
+
+* Fixed an incompatibility with the following mods which could lead to a crash: Taskbar tray icon spacing, Taskbar tray system icon tweaks.
+
+## 1.0.4 ([Oct 27, 2024](https://github.com/ramensoftware/windhawk-mods/blob/8195a025df8ce6bfbd9a3dab732811619d75d205/mods/taskbar-on-top.wh.cpp))
+
+* Fixed the start menu opening on the left side of the screen, even if the icons on the taskbar are centered. The bug was caused by the attempt to change the incorrect jump list animation in version 1.0.3. As a result, if icons are centered, jump list animation will be incorrect again. This affects only Windows 11 23H2, there's no such issue on Windows 11 24H2.
+
 ## 1.0.3 ([Oct 19, 2024](https://github.com/ramensoftware/windhawk-mods/blob/ab4920afd69b029af1091d6f9598dd1c1c90eed8/mods/taskbar-on-top.wh.cpp))
 
 * Improved compatibility with some programs which query the taskbar location, such as EarTrumpet.

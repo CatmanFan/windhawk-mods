@@ -1,3 +1,27 @@
+## 1.5.2 ([Mar 21, 2025](https://github.com/ramensoftware/windhawk-mods/blob/a2cd3cd75b7491b7f38a2ea3cf51ae71f164f119/mods/taskbar-clock-customization.wh.cpp))
+
+* Fixed an incompatibility with recent Windows 11 preview builds.
+* Added an option to specify a custom list of week days.
+
+## 1.5.1 ([Mar 1, 2025](https://github.com/ramensoftware/windhawk-mods/blob/a2c63362113ef44916a06a798fd2424a44c17fd6/mods/taskbar-clock-customization.wh.cpp))
+
+* Change the Visible option for the top/bottom clock line to Hidden, to prevent the bottom line from being hidden by default after updating to version 1.5.
+
+## 1.5 ([Mar 1, 2025](https://github.com/ramensoftware/windhawk-mods/blob/67c1039afeda68ee5efd3c6a0e5cabe2de082557/mods/taskbar-clock-customization.wh.cpp))
+
+* Added patterns for displaying additional time zones.
+* Added a visibility option for the bottom clock line (Windows 11).
+
+## 1.4 ([Dec 1, 2024](https://github.com/ramensoftware/windhawk-mods/blob/6082c60100929675fc56d995c9f9a6ae7b221c9e/mods/taskbar-clock-customization.wh.cpp))
+
+* Added support for the new "Show abbreviated time and date" Windows 11 option.
+* Added a way to specify multiple date/time formats. It can be useful for things such as showing hours and minutes in different lines.
+* Added an option for the clock max width (Windows 11 only).
+* Added the `%dayofyear%` pattern - the day of year starting from January 1st.
+* Added the `%newline%` pattern - a newline.
+* Web content is now updated right away after resuming the computer from sleep.
+* Added support for the ExplorerPatcher taskbar.
+
 ## 1.3.3 ([May 4, 2024](https://github.com/ramensoftware/windhawk-mods/blob/058fa8b81165b566fd988e19e42052771a59b120/mods/taskbar-clock-customization.wh.cpp))
 
 * Added an online symbol cache mechanism as a temporary workaround for the unavailable Microsoft symbols. Currently, this makes the mod work on Windows 11 versions 22631.3447 and 22631.3527. For more details, refer to [the relevant blog post](https://ramensoftware.com/windhawk-and-symbol-download-errors).
